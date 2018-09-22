@@ -73,6 +73,8 @@ owner:NT18-DS a void:Dataset .
 Because using namespaces makes the RDF more readable, this tutorial uses the following namespaces:
 
 ```turtle
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix owner: <https://nanocommons.github.io/tutorials/demo/owner/> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix void:  <http://rdfs.org/ns/void#> .
@@ -82,7 +84,7 @@ Because using namespaces makes the RDF more readable, this tutorial uses the fol
 
 The first thing to do is define a dataset. The eNanoMapper software will read this as a `bundle`.
 Each dataset has license statement, the name of the distributor (which is often different from the
-copyright owner), a description, and a title. For example:
+copyright owner), a description (the `@en` annotation indicated the language), and a title. For example:
 
 ```turtle
 owner:NT18-DS
@@ -119,4 +121,46 @@ owner:NT18-S1
 This example is taken from a recent paper by the
 [HINAMOX project](https://tools.wmflabs.org/scholia/sponsor/Q55095501)
 (doi:[10.3390/ijms19010246](https://doi.org/10.3390/ijms19010246)).
+
+To figure out what *type* of nanomaterial you have, you can browse the eNanoMapper ontology (see the aforementioned
+tutorial). If you are using any of the OECD or JRC nanomaterials, you are lucky and can also use one of these
+two guidance documents:
+
+* [Ontology IRIs for the OECD nanomaterials](http://specs.enanomapper.net/oecd/)
+* [eNanoMapper Ontology IRIs for the JRC representative industrial nanomaterials](http://specs.enanomapper.net/jrc/)
+
+### Use Case: linking to third party databases
+
+The above information does not sounds like a lot yet, but can still be useful. Say you have some data collection
+online, with one web page for each material, and you want the eNanoMapper database to link to that. The above would
+be enough, except that we would need to add the link to that web page. That can be done with the FOAF ontology:
+
+```turtle
+owner:NT18-S1 foaf:page <http://www.mdpi.com/1422-0067/19/1/246/htm>
+```
+
+For the running example, the page linked to is not specifically about that nanomaterial, but the page
+of the full article.
+
+## Adding some chemistry
+
+## Adding physical chemical properties
+
+### Primary particle size
+
+### Zeta potential
+
+## Adding biological endpoints
+
+## Uploading to eNanoMapper
+
+### Validating your Turtle
+
+### The upload page
+
+### Inspecting the results
+
+
+
+
 
