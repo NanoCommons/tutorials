@@ -158,7 +158,33 @@ of the full article.
 
 ### The upload page
 
+In this tutorial we will use a test server with the eNanoMapper server
+provided by [IDEAConsult Ltd.](https://www.ideaconsult.net/), where we can upload any test data: 
+[https://apps.ideaconsult.net/enmtest/](https://apps.ideaconsult.net/enmtest/).
+
+The September 2018 version of the eNanoMapper database software contains a
+[dedicated upload page](https://apps.ideaconsult.net/enmtest/ui/uploadenm) for the here introduced Turtle:
+
+![Screenshot of Turtle upload page](Screenshot_20180922_132831.png)
+
+With the "Choose File" button, you can select your newly created Turtle file, followed by clicking
+the Submit button.
+
+The next page will show information of the running task, reflecting the reading of the data. If your
+Turtle validated (see the previous step), you should not get an error message. If all indeed loaded
+well, you will get a link to one of the materials loaded.
+
 ### Inspecting the results
+
+However, to see the full collection, we can better go to 
+[the Bundles page](https://apps.ideaconsult.net/enmtest/bundle),
+which should list your new bundle too. If there are many bundles listed, you can search your bundle
+using the title you provided:
+
+![Using the Search functionality to restrict the number of bundles shown.](Screenshot_20180922_133504.png)
+
+If you click the folder icon in the first column, in the row for your bundle, you will get a link to a
+list with all Substances. That way you can verify that all your materials were read in properly.
 
 
 
