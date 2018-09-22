@@ -75,6 +75,7 @@ Because using namespaces makes the RDF more readable, this tutorial uses the fol
 ```turtle
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix npo:   <http://purl.bioontology.org/ontology/npo#> .
 @prefix owner: <https://nanocommons.github.io/tutorials/demo/owner/> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix void:  <http://rdfs.org/ns/void#> .
@@ -143,6 +144,33 @@ For the running example, the page linked to is not specifically about that nanom
 of the full article.
 
 ## Adding some chemistry
+
+There is plenty of room at the bottom, and that applies to this story too. The above basically only
+covers the name of the compound, along with some metadata. Let's describe next what we know about
+the chemical content of the material.
+
+First, the full composition is modelled after the NPO ontology and each nanoparticle has parts, so
+if we want to define a core part, we create a new resource for that, with out unique IRI, and link
+that to the nanoparticle with `npo:has_part`.
+
+### The core
+
+Let's first define the core of that nanomaterial. For this we define a new resource, for the core,
+and type it as a core using a term from the NPO ontology NPO
+
+```turtle
+:NT18-S1_core  a           npo:NPO_1597 ;
+        sso:CHEMINF_000200  :NT18-S1_core_smiles .
+
+:NT18-S1_core_smiles
+        a               sso:CHEMINF_000018 ;
+        rdfs:label      "zinc oxide" ;
+        sso:SIO_000300  "ZnO" .
+```
+
+### The coating
+
+### Impurities
 
 ## Adding physical chemical properties
 
