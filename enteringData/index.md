@@ -32,7 +32,14 @@ Resource Description Framework (RDF) format, using a schema based on various ont
 
 This tutorial expects some basic knowledge about RDF, particularly, the concept of IRIs and triples.
 The examples used will illustrate a lot, but does not replace reading up on RDF literature. If new
-to this, I recommend reading [RDF 1.1 Turtle - Terse RDF Triple Language](https://www.w3.org/TR/turtle/).
+to this, and if something in not clear when you go through the tutorial below, you consider
+reading [RDF 1.1 Turtle - Terse RDF Triple Language](https://www.w3.org/TR/turtle/).
+
+Furthermore, because RDF is a semantic format, it will rely on the eNanoMapper ontology. At various
+places it will link to the EMBL-EBI Ontology Lookup Service (OLS) to show a term. Besides the OLS
+BioPortal can be used to browse the ontology too. The reader may be interested in the
+[Browsing the eNanoMapper ontology with BioPortal, AberOWL and Protégé](https://enanomapper.github.io/tutorials/BrowseOntology/Tutorial%20browsing%20eNM%20ontology.html)
+tutorial.
 
 ## Turtle and namespaces
 
@@ -53,6 +60,15 @@ and
 
 owner:NT18-DS rdf:type void:Dataset .
 ```
+
+Because `rdf:type` is frequently used, the Turtle standard allows it to be shortened to a mere `a`, so that
+the triple can be further shortened to (just the triple, so ommiting the namespace declarations):
+
+```turtle
+owner:NT18-DS a void:Dataset .
+```
+
+### Namespaces used in this tutorial
 
 Because using namespaces makes the RDF more readable, this tutorial uses the following namespaces:
 
@@ -85,3 +101,22 @@ Possible license IRIs include:
 ## Adding a nanomaterial 
 
 But at this moment, the dataset is still empty. We did not add nanomaterials to it.
+The very minimal amount of information is that the nanomaterial is a chemical substance,
+and for that we will use the `chemical substance` term from the eNanoMapper ontology
+([CHEBI_59999](https://www.ebi.ac.uk/ols/ontologies/enm/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHEBI_59999)).
+Furthermore, we will give the material a name and a ontology annotation, for which we also use the
+eNanoMapper ontology (here, a 
+[NPO_1542](https://www.ebi.ac.uk/ols/ontologies/enm/terms?iri=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23NPO_1542)):
+
+```turtle
+owner:NT18-S1
+        a                obo:CHEBI_59999 ;
+        rdfs:label       "zinc oxide" ;
+        dcterms:source   owner:NT18-DS ;
+        dcterms:type     npo:NPO_1542 .
+```
+
+This example is taken from a recent paper by the
+[HINAMOX project](https://tools.wmflabs.org/scholia/sponsor/Q55095501)
+(doi:[10.3390/ijms19010246](https://doi.org/10.3390/ijms19010246)).
+
