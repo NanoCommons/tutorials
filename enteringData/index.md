@@ -168,7 +168,30 @@ and type it as a core using a term from the NPO ontology NPO
         sso:SIO_000300  "ZnO" .
 ```
 
+In the above example, we used the [NPO_1597](https://bioportal.bioontology.org/ontologies/ENM/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23NPO_1597)
+term for `fiat material part`.
+
+We can further annotate the material part, by adding a triple to indicate the part is actually
+a core with [NPO_1617)(https://bioportal.bioontology.org/ontologies/ENM/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23NPO_1617):
+
+```turtle
+:NT18-S1_core
+        dcterms:type    npo:NPO_1617 .
+```
+
+Alternative ontology annotations for cores from the eNanoMapper ontology
+(inherited from the NanoPartical Ontology) include:
+
+* [NPO_279](https://bioportal.bioontology.org/ontologies/ENM/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23NPO_279): dendrimer core
+* [NPO_1864](https://bioportal.bioontology.org/ontologies/ENM/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23NPO_1864): metal oxide core
+* [NPO_1860](https://bioportal.bioontology.org/ontologies/ENM/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23NPO_1860): organic core
+
+See the [full hierarchy](https://bioportal.bioontology.org/ontologies/ENM/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23NPO_1617)
+for more possible annotation.
+
 ### The coating
+
+A coating is added as `fiat material part` too, and follows the same approach as the core.
 
 ### Impurities
 
