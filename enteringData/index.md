@@ -175,8 +175,7 @@ We can further annotate the material part, by adding a triple to indicate the pa
 a core with [NPO_1617](https://bioportal.bioontology.org/ontologies/ENM/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23NPO_1617):
 
 ```turtle
-:NT18-S1_core
-        dcterms:type    npo:NPO_1617 .
+:NT18-S1_core a    npo:NPO_1617 .
 ```
 
 Alternative ontology annotations for cores from the eNanoMapper ontology
@@ -195,11 +194,73 @@ A coating is added as `fiat material part` too, and follows the same approach as
 
 ### Impurities
 
-## Adding physical chemical properties
+## Adding physical-chemical properties
 
-### Primary particle size
+We can also add physical-chemical properties to the data, further characterizing the nanomaterial.
+For both physical-chemical and biological properties, the data model is reused introduced
+in the PubChem RDF (see also doi:[10.1186/s13321-015-0084-4](https://doi.org/ 10.1186/s13321-015-0084-4))
+and using various ontologies:
 
-### Zeta potential
+* an assay is defined `has measure group` ([BAO_0000209](https://www.ebi.ac.uk/ols/ontologies/bao/properties?iri=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0000209)) a `measure group` ([BAO_0000040](https://bioportal.bioontology.org/ontologies/BAO/?p=classes&conceptid=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0000040))
+* a material `participates in` ([BFO_0000056](https://www.ebi.ac.uk/ols/ontologies/flopo/properties?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBFO_0000056)) a `measure group`
+* a measure group `has specified output` ([OBI_0000299](https://www.ebi.ac.uk/ols/ontologies/flu/individuals?iri=http://purl.obolibrary.org/obo/OBI_0000299)) a `endpoint` ([BAO_0000179](https://bioportal.bioontology.org/ontologies/ENM/?p=classes&conceptid=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0000179))
+
+### Two examples
+
+#### Primary particle size
+
+For example, for a particle size ([NPO_1694](https://bioportal.bioontology.org/ontologies/ENM/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23NPO_1694)), we get the following set up:
+
+```turtle
+ex:NFYS16-M12
+        obo:BFO_0000056  ex:NFYS16-M12_sizemg .
+
+ex:NFYS16-sizeAssay1
+        a                npo:NPO_1694 , bao:BAO_0000015 ;
+        dc:title         "Particle Size" ;
+        bao:BAO_0000209  ex:NFYS16-M12_sizemg .
+
+ex:NFYS16-M12_sizemg  a  obo:BAO_0000040 ;
+        obo:OBI_0000299  ex:NFYS16-M12_size .
+
+ex:NFYS16-M12_size  a    bao:BAO_0000179 ;
+        rdfs:label       "primary particle size" ;
+        sso:has-unit     "nm" ;
+        sso:has-value    "13.6" .
+```
+
+Note: the above is ontologically not entirely correct, as NPO_1694 is not actually an assay type, but a quality.
+This 
+
+#### Zeta potential
+
+Similarly, for a zeta potential 
+
+```turtle
+ex:NFYS16-M12
+        obo:BFO_0000056  ex:NFYS16-M12_zpmg .
+
+ex:NFYS16-sizeAssay2
+        a                npo:NPO_1302 , bao:BAO_0000015 ;
+        dc:title         "Zeta Potential" ;
+        bao:BAO_0000209  ex:NFYS16-M12_zpmg .
+
+ex:NFYS16-M12_zpmg  a  obo:BAO_0000040 ;
+        obo:OBI_0000299  ex:NFYS16-M12_zp .
+
+ex:NFYS16-M12_zp  a        bao:BAO_0000179 ;
+        rdfs:label         "ZETA POTENTIAL" ;
+        obo:STATO_0000035  "-53.5 ± 10.6"^^xsd:string ;
+        sio:has-unit       "mV" .
+```
+
+### Alternatives for adding measurement values
+
+### Adding protocols
+
+#### Adding specific experimental conditions
+
+### Adding literature references
 
 ## Adding biological endpoints
 
