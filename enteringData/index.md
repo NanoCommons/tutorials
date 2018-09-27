@@ -172,7 +172,7 @@ In the above example, we used the [NPO_1597](https://bioportal.bioontology.org/o
 term for `fiat material part`.
 
 We can further annotate the material part, by adding a triple to indicate the part is actually
-a core with [NPO_1617)(https://bioportal.bioontology.org/ontologies/ENM/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23NPO_1617):
+a core with [NPO_1617](https://bioportal.bioontology.org/ontologies/ENM/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23NPO_1617):
 
 ```turtle
 :NT18-S1_core
