@@ -256,6 +256,32 @@ ex:NFYS16-M12_zp  a        bao:BAO_0000179 ;
 
 ### Alternatives for adding measurement values
 
+The above two examples indicated two different ways to provide the measured value
+of the end point. In both cases there was a single value, but one had an indication
+of the measurement error. The system supports currently the following
+patterns.
+
+First, a single value:
+
+```turtle
+ex:NFYS16-M12_zp  a        bao:BAO_0000179 ;
+        sso:has-value    "13.6"^^xsd:double .
+```
+
+Secondly, a single value with error indication, using a predicate from the STATO:
+
+```turtle
+ex:NFYS16-M12_zp  a        bao:BAO_0000179 ;
+        obo:STATO_0000035  "-53.5 ± 10.6"^^xsd:string .
+```
+
+The third option is to define a minimum and maximum:
+
+```turtle
+ex:NFYS16-M12_zp  a        bao:BAO_0000179 ;
+        obo:STATO_0000035  "1-10"^^xsd:string ; .
+```
+
 ### Adding protocols
 
 #### Adding specific experimental conditions
@@ -263,6 +289,23 @@ ex:NFYS16-M12_zp  a        bao:BAO_0000179 ;
 ### Adding literature references
 
 ## Adding biological endpoints
+
+A biological endpoints is modelled similarly to a physical-chemical endpoint.
+But currently, the ontological type of quality measured is given on the endpoint,
+not on the assay. For example,
+
+```turtle
+etox:m134_noecMeasurementGroup533
+        a                bao:BAO_0000040 ;
+        obo:OBI_0000299  etox:m134_noecMeasurementGroup533_noecEndpoint .
+
+etox:m134_noecMeasurementGroup533_noecEndpoint
+        a                enm:ENM_0000060 ;
+        rdfs:label       "NOEC" ;
+        obo:IAO_0000136  etox:m134 ;
+        sso:has-unit     "µg/L" ;
+        sso:has-value    "15"^^xsd:double .
+```
 
 ## Uploading to eNanoMapper
 
