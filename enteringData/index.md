@@ -214,6 +214,10 @@ and using various ontologies:
 
 ### Two examples
 
+Here are two examples of physical chemical endpoints. In fact, we can use `physical property endpoint`
+([BAO_0002128](https://bioportal.bioontology.org/ontologies/ENM/?p=classes&conceptid=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0002128)) instead of `endpoint` of
+which it is a subclass.
+
 #### Primary particle size
 
 For example, for a particle size ([NPO_1694](https://bioportal.bioontology.org/ontologies/ENM/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23NPO_1694)), we get the following set up:
@@ -230,7 +234,7 @@ owner:NFYS16-sizeAssay1
 owner:NFYS16-M12_sizemg  a  obo:BAO_0000040 ;
         obo:OBI_0000299  owner:NFYS16-M12_size .
 
-owner:NFYS16-M12_size  a    bao:BAO_0000179 ;
+owner:NFYS16-M12_size  a    bao:BAO_0002128 ;
         rdfs:label       "primary particle size" ;
         sio:has-unit     "nm" ;
         sio:has-value    "13.6" .
@@ -255,7 +259,7 @@ owner:NFYS16-sizeAssay2
 owner:NFYS16-M12_zpmg  a  obo:BAO_0000040 ;
         obo:OBI_0000299  owner:NFYS16-M12_zp .
 
-owner:NFYS16-M12_zp  a        bao:BAO_0000179 ;
+owner:NFYS16-M12_zp  a        bao:BAO_0002128 ;
         rdfs:label         "ZETA POTENTIAL" ;
         obo:STATO_0000035  "-53.5 ± 10.6"^^xsd:string ;
         sio:has-unit       "mV" .
