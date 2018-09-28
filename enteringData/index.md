@@ -75,6 +75,7 @@ Because using namespaces makes the RDF more readable, this tutorial uses the fol
 
 ```turtle
 @prefix bao:   <http://www.bioassayontology.org/bao#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix npo:   <http://purl.bioontology.org/ontology/npo#> .
@@ -165,10 +166,10 @@ Let's first define the core of that nanomaterial. For this we define a new resou
 and type it as a core using a term from the NPO ontology NPO
 
 ```turtle
-:NT18-S1_core  a           npo:NPO_1597 ;
-        sio:CHEMINF_000200  :NT18-S1_core_smiles .
+owner:NT18-S1_core  a           npo:NPO_1597 ;
+        sio:CHEMINF_000200  owner:NT18-S1_core_smiles .
 
-:NT18-S1_core_smiles
+owner:NT18-S1_core_smiles
         a               sio:CHEMINF_000018 ;
         rdfs:label      "zinc oxide" ;
         sio:SIO_000300  "ZnO" .
@@ -181,7 +182,7 @@ We can further annotate the material part, by adding a triple to indicate the pa
 a core with [NPO_1617](https://bioportal.bioontology.org/ontologies/ENM/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23NPO_1617):
 
 ```turtle
-:NT18-S1_core a    npo:NPO_1617 .
+owner:NT18-S1_core a    npo:NPO_1617 .
 ```
 
 Alternative ontology annotations for cores from the eNanoMapper ontology
@@ -218,18 +219,18 @@ and using various ontologies:
 For example, for a particle size ([NPO_1694](https://bioportal.bioontology.org/ontologies/ENM/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23NPO_1694)), we get the following set up:
 
 ```turtle
-ex:NFYS16-M12
-        obo:BFO_0000056  ex:NFYS16-M12_sizemg .
+owner:NFYS16-M12
+        obo:BFO_0000056  owner:NFYS16-M12_sizemg .
 
-ex:NFYS16-sizeAssay1
+owner:NFYS16-sizeAssay1
         a                npo:NPO_1694 , bao:BAO_0000015 ;
         dc:title         "Particle Size" ;
-        bao:BAO_0000209  ex:NFYS16-M12_sizemg .
+        bao:BAO_0000209  owner:NFYS16-M12_sizemg .
 
-ex:NFYS16-M12_sizemg  a  obo:BAO_0000040 ;
-        obo:OBI_0000299  ex:NFYS16-M12_size .
+owner:NFYS16-M12_sizemg  a  obo:BAO_0000040 ;
+        obo:OBI_0000299  owner:NFYS16-M12_size .
 
-ex:NFYS16-M12_size  a    bao:BAO_0000179 ;
+owner:NFYS16-M12_size  a    bao:BAO_0000179 ;
         rdfs:label       "primary particle size" ;
         sio:has-unit     "nm" ;
         sio:has-value    "13.6" .
@@ -243,18 +244,18 @@ This
 Similarly, for a zeta potential 
 
 ```turtle
-ex:NFYS16-M12
-        obo:BFO_0000056  ex:NFYS16-M12_zpmg .
+owner:NFYS16-M12
+        obo:BFO_0000056  owner:NFYS16-M12_zpmg .
 
-ex:NFYS16-sizeAssay2
+owner:NFYS16-sizeAssay2
         a                npo:NPO_1302 , bao:BAO_0000015 ;
         dc:title         "Zeta Potential" ;
         bao:BAO_0000209  ex:NFYS16-M12_zpmg .
 
-ex:NFYS16-M12_zpmg  a  obo:BAO_0000040 ;
-        obo:OBI_0000299  ex:NFYS16-M12_zp .
+owner:NFYS16-M12_zpmg  a  obo:BAO_0000040 ;
+        obo:OBI_0000299  owner:NFYS16-M12_zp .
 
-ex:NFYS16-M12_zp  a        bao:BAO_0000179 ;
+owner:NFYS16-M12_zp  a        bao:BAO_0000179 ;
         rdfs:label         "ZETA POTENTIAL" ;
         obo:STATO_0000035  "-53.5 ± 10.6"^^xsd:string ;
         sio:has-unit       "mV" .
@@ -270,21 +271,21 @@ patterns.
 First, a single value:
 
 ```turtle
-ex:NFYS16-M12_zp  a        bao:BAO_0000179 ;
+owner:NFYS16-M12_zp  a        bao:BAO_0000179 ;
         sio:has-value    "13.6"^^xsd:double .
 ```
 
 Secondly, a single value with error indication, using a predicate from the STATO:
 
 ```turtle
-ex:NFYS16-M12_zp  a        bao:BAO_0000179 ;
+owner:NFYS16-M12_zp  a        bao:BAO_0000179 ;
         obo:STATO_0000035  "-53.5 ± 10.6"^^xsd:string .
 ```
 
 The third option is to define a minimum and maximum:
 
 ```turtle
-ex:NFYS16-M12_zp  a        bao:BAO_0000179 ;
+owner:NFYS16-M12_zp  a        bao:BAO_0000179 ;
         obo:STATO_0000035  "1-10"^^xsd:string ; .
 ```
 
@@ -295,11 +296,11 @@ But currently, the ontological type of quality measured is given on the endpoint
 not on the assay. For example,
 
 ```turtle
-etox:m134_noecMeasurementGroup533
+owner:m134_noecMeasurementGroup533
         a                bao:BAO_0000040 ;
-        obo:OBI_0000299  etox:m134_noecMeasurementGroup533_noecEndpoint .
+        obo:OBI_0000299  owner:m134_noecMeasurementGroup533_noecEndpoint .
 
-etox:m134_noecMeasurementGroup533_noecEndpoint
+owner:m134_noecMeasurementGroup533_noecEndpoint
         a                enm:ENM_0000060 ;
         rdfs:label       "NOEC" ;
         obo:IAO_0000136  etox:m134 ;
