@@ -24,6 +24,7 @@ trainingMaterial:
 * Author: Egon Willighagen (orcid:[0000-0001-7542-0286](https://orcid.org/0000-0001-7542-0286))
 * License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 * Version: 0.9.0
+* Source: https://github.com/NanoCommons/tutorials/blob/master/enteringData/index.md
 
 Adding nanomaterial data to an eNanoMapper instance can be done in many different ways, as one would
 expect in a open platform. Data can be entered using the JRC spreadsheet formats, using R code and
@@ -337,7 +338,12 @@ using the title you provided:
 If you click the folder icon in the first column, in the row for your bundle, you will get a link to a
 list with all Substances. That way you can verify that all your materials were read in properly.
 
+# Acknowledgments
 
+This tutorial was written as part of the NanoCommons project.
+[NanoCommons](https://twitter.com/nanocommons) (Grant Agreement 
+[731032](http://cordis.europa.eu/projects/731032)) is a project
+funded by the European Commission within Horizon2020 Programme
 
 
 
