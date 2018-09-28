@@ -73,12 +73,16 @@ owner:NT18-DS a void:Dataset .
 Because using namespaces makes the RDF more readable, this tutorial uses the following namespaces:
 
 ```turtle
+@prefix bao:   <http://www.bioassayontology.org/bao#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix npo:   <http://purl.bioontology.org/ontology/npo#> .
 @prefix owner: <https://nanocommons.github.io/tutorials/demo/owner/> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sio:   <http://semanticscience.org/resource/> .
 @prefix void:  <http://rdfs.org/ns/void#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 ```
 
 ## Adding a dataset 
@@ -160,12 +164,12 @@ and type it as a core using a term from the NPO ontology NPO
 
 ```turtle
 :NT18-S1_core  a           npo:NPO_1597 ;
-        sso:CHEMINF_000200  :NT18-S1_core_smiles .
+        sio:CHEMINF_000200  :NT18-S1_core_smiles .
 
 :NT18-S1_core_smiles
-        a               sso:CHEMINF_000018 ;
+        a               sio:CHEMINF_000018 ;
         rdfs:label      "zinc oxide" ;
-        sso:SIO_000300  "ZnO" .
+        sio:SIO_000300  "ZnO" .
 ```
 
 In the above example, we used the [NPO_1597](https://bioportal.bioontology.org/ontologies/ENM/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23NPO_1597)
@@ -225,8 +229,8 @@ ex:NFYS16-M12_sizemg  a  obo:BAO_0000040 ;
 
 ex:NFYS16-M12_size  a    bao:BAO_0000179 ;
         rdfs:label       "primary particle size" ;
-        sso:has-unit     "nm" ;
-        sso:has-value    "13.6" .
+        sio:has-unit     "nm" ;
+        sio:has-value    "13.6" .
 ```
 
 Note: the above is ontologically not entirely correct, as NPO_1694 is not actually an assay type, but a quality.
@@ -265,7 +269,7 @@ First, a single value:
 
 ```turtle
 ex:NFYS16-M12_zp  a        bao:BAO_0000179 ;
-        sso:has-value    "13.6"^^xsd:double .
+        sio:has-value    "13.6"^^xsd:double .
 ```
 
 Secondly, a single value with error indication, using a predicate from the STATO:
@@ -282,12 +286,6 @@ ex:NFYS16-M12_zp  a        bao:BAO_0000179 ;
         obo:STATO_0000035  "1-10"^^xsd:string ; .
 ```
 
-### Adding protocols
-
-#### Adding specific experimental conditions
-
-### Adding literature references
-
 ## Adding biological endpoints
 
 A biological endpoints is modelled similarly to a physical-chemical endpoint.
@@ -303,13 +301,11 @@ etox:m134_noecMeasurementGroup533_noecEndpoint
         a                enm:ENM_0000060 ;
         rdfs:label       "NOEC" ;
         obo:IAO_0000136  etox:m134 ;
-        sso:has-unit     "µg/L" ;
-        sso:has-value    "15"^^xsd:double .
+        sio:has-unit     "µg/L" ;
+        sio:has-value    "15"^^xsd:double .
 ```
 
 ## Uploading to eNanoMapper
-
-### Validating your Turtle
 
 ### The upload page
 
