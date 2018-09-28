@@ -205,7 +205,7 @@ A coating is added as `fiat material part` too, and follows the same approach as
 
 We can also add physical-chemical properties to the data, further characterizing the nanomaterial.
 For both physical-chemical and biological properties, the data model is reused introduced
-in the PubChem RDF (see also doi:[10.1186/s13321-015-0084-4](https://doi.org/ 10.1186/s13321-015-0084-4))
+in the PubChem RDF (see also doi:[10.1186/s13321-015-0084-4](https://doi.org/10.1186/s13321-015-0084-4))
 and using various ontologies:
 
 * an assay is defined `has measure group` ([BAO_0000209](https://www.ebi.ac.uk/ols/ontologies/bao/properties?iri=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0000209)) a `measure group` ([BAO_0000040](https://bioportal.bioontology.org/ontologies/BAO/?p=classes&conceptid=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0000040))
