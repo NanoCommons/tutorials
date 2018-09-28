@@ -24,7 +24,7 @@ trainingMaterial:
 * Author: Egon Willighagen (orcid:[0000-0001-7542-0286](https://orcid.org/0000-0001-7542-0286))
 * License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 * Version: 0.9.0
-* Source: https://github.com/NanoCommons/tutorials/blob/master/enteringData/index.md
+* Source: [https://github.com/NanoCommons/tutorials/blob/master/enteringData/index.md](https://github.com/NanoCommons/tutorials/blob/master/enteringData/index.md)
 
 Adding nanomaterial data to an eNanoMapper instance can be done in many different ways, as one would
 expect in a open platform. Data can be entered using the JRC spreadsheet formats, using R code and
