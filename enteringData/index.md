@@ -78,6 +78,7 @@ Because using namespaces makes the RDF more readable, this tutorial uses the fol
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix npo:   <http://purl.bioontology.org/ontology/npo#> .
+@prefix obo:   <http://purl.obolibrary.org/obo/> .
 @prefix owner: <https://nanocommons.github.io/tutorials/demo/owner/> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
