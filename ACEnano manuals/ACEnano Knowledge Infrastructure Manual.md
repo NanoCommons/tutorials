@@ -1,7 +1,7 @@
 # ACEnano Knowledge Infrastructure Manual
-**Last update**: 12 March 2019
+**Last update**: 13 March 2019
 
-**Authors**: Oana Florean, Maja Brajnik, Lucian Farcal
+**Authors**: Oana Florean, Maja Brajnik, Lucian Farcal [(Edelweiss Connect GmbH)](https://edelweissconnect.com/)
 
 **Contact**: acenano@edelweissconnect.com
 
@@ -10,8 +10,9 @@
 ## Table of contents
 
 ## How do I access the knowledge infrastructure?
-The ACEnano knowledge infrastructure is freely available (*under implementation*) to anyone interested in accessing or uploading data (including protocols and experimental results) related to physicochemical characterisation of nanomaterials.
+The ACEnano knowledge infrastructure is freely available to anyone interested in accessing or uploading data (including protocols and experimental results) related to physicochemical characterisation of nanomaterials.
 
+* *Under implementation*
 
 ## What are the main features of the knowledge infrastructure?
 The ACEnano knowledge infrastructure (KI) is built using an open source software and includes multiple database instances (relational and non-rational (NoSQL) database) to optimally accommodate the requirements of the different data types (raw and processed data, summary results and protocols).
@@ -23,6 +24,14 @@ The features of the KI allows the users to:
 
 ## How do I add a new protocol?
 The protocols database facilitates the access and sharing of methodologies applied in nanosafety. The methods are easy to browse and are linked to experimental datasets. This tool aims also to facilitate sharing of state of the art methods with the NanoEHS community and beyond.
+
+After logging on at https://acenano.douglasconnect.com/ you can add a new protocol by following these steps:
+1. Click the button “Protocols” from the top menu to open the “ACEnano Protocols” page which is the starting point of the protocols section.
+<p align="center">
+  <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
+</p>
+
+2. “ACEnano Protocols” page contains an explanatory paragraph and a scheme on the process of accessing and sharing the protocols, a red button “Add a new protocol” and the list of all added protocols until date labelled on “Protocol type”, “Protocol name” and “Posted”.
 
 
 ## How do I create a new data workflow?
