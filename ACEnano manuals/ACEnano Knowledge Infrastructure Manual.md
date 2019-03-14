@@ -43,7 +43,7 @@ After logging on at https://acenano.douglasconnect.com/ you can add a new protoc
   - **Measurement Protocol**
   - **Data Treatment Protocol**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Additional guidance and/or an examples are given to some of the fields in the questionnaire.<dd> 
+Additional guidance and/or an examples are given to some of the fields in the questionnaire.<dd> 
 
 4.For all the three protocols types, the first page of the protocol is approximately the same. It contains an explanation of the protocol parts and the questionnaire on *Part 1: General information*.
 
@@ -66,7 +66,7 @@ After logging on at https://acenano.douglasconnect.com/ you can add a new protoc
 - *Possible datasets*area, with: *Axe*, *Units*  fields
 - *Measurement quality parameters* area, with: *Parameter*, *Common setting* and  *Units* fields.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In each of these areas, the fields can be completed with free text, deleted by checking the delete boxes or extended by clicking the addition button. 
+In each of these areas, the fields can be completed with free text, deleted by checking the delete boxes or extended by clicking the addition button. 
 
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
@@ -86,15 +86,15 @@ After logging on at https://acenano.douglasconnect.com/ you can add a new protoc
 
 6.3. For **Data Treatment Protocol**, the second page, embodies *Part 2: Steps*, containing the *Step* number box, *Algorithm applied*, *Resulting data* and *Parameters* fields to be completed with free text.  Steps can be deleted by selecting the checkbox *Delete this step* and extended by pressing the *+Add another step* button.
 
-7. By clicking  the red *Submit protocol* button at the bottom of the last page of the protocol questionnaire (second page for Sample **Preparation Protocol** and **Data Treatment Protocol** and third page for the **Measurement Protocol**), a page embodying the *Preview protocol* (Fig. Preview protocol page) will appear so the protocol can be proofread before submission. 
+7.By clicking  the red *Submit protocol* button at the bottom of the last page of the protocol questionnaire (second page for Sample **Preparation Protocol** and **Data Treatment Protocol** and third page for the **Measurement Protocol**), a page embodying the *Preview protocol* (Fig. Preview protocol page) will appear so the protocol can be proofread before submission. 
 
-8. If everything it’s alright, the protocol can be committed by pressing the *Submit protocol* button. If corrections/modifications are needed, by pressing the *Make more changes* button, editing can be done in any part or area of the protocol by being redirected at *Part 1: General information* and moving towards the *Preview protocol* page.
+8.If everything it’s alright, the protocol can be committed by pressing the *Submit protocol* button. If corrections/modifications are needed, by pressing the *Make more changes* button, editing can be done in any part or area of the protocol by being redirected at *Part 1: General information* and moving towards the *Preview protocol* page.
 
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
 </p>
 
-9. After pressing the *Submit protocol* button from *Preview protocol* page, the new added protocol will appear on top of the *LATEST POSTS* list with the flag *protocol*,  a small description and the type of the protocol and the date when it was published(submitted).
+9.After pressing the *Submit protocol* button from *Preview protocol* page, the new added protocol will appear on top of the *LATEST POSTS* list with the flag *protocol*,  a small description and the type of the protocol and the date when it was published(submitted).
 
 ## How do I create a new data workflow?
 The data warehouse offers long-term storage of data produced by the nanosafety community. The data warehouse aims to support the data harmonisation and the implementation of FAIR principles towards the goal of generating a reference resource for nanomaterials risk assessment.
