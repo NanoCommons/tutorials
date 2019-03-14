@@ -24,24 +24,24 @@ The features of the KI allows the users to:
 
 ## How do I add a new protocol?
 The protocols database facilitates the access and sharing of methodologies applied in nanosafety. The methods are easy to browse and are linked to experimental datasets. This tool aims also to facilitate sharing of state of the art methods with the NanoEHS community and beyond.
-
-After logging on at https://acenano.douglasconnect.com/ you can add a new protocol by following these steps:
-1. Click the *Protocols* button from the top menu to open the *ACEnano Protocols* page which is the starting point of the protocols section.
+<dl>
+<dt>After logging on at https://acenano.douglasconnect.com/ you can add a new protocol by following these steps:
+<dd>1. Click the *Protocols* button from the top menu to open the *ACEnano Protocols* page which is the starting point of the protocols section. <dd>
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
 </p>
 
-2. *ACEnano Protocols* page contains an explanatory paragraph and a scheme on the process of accessing and sharing the protocols, a red button *Add a new protocol* and the list of all added protocols until date labelled on *Protocol type*, *Protocol name* and *Posted*.
+<dd>2. *ACEnano Protocols* page contains an explanatory paragraph and a scheme on the process of accessing and sharing the protocols, a red button *Add a new protocol* and the list of all added protocols until date labelled on *Protocol type*, *Protocol name* and *Posted*.<dd>
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
 </p>
 
-3. By clicking the button *Add a new protocol*, a new page is displayed (Fig. 3. Add a new protocol page), containing the description of the different type of protocols (in a questionnaire-like format) which can be added to the database:
+<dd>3. By clicking the button *Add a new protocol*, a new page is displayed (Fig. 3. Add a new protocol page), containing the description of the different type of protocols (in a questionnaire-like format) which can be added to the database:
   - Sample preparation protocol
   - Measurement protocol
   - Data treatment protocol
    
-   Additional guidance and/or an examples are given to some of the fields in the questionnaire.
+   <dd>Additional guidance and/or an examples are given to some of the fields in the questionnaire.<dd>
   
   <p align="center">
     <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
