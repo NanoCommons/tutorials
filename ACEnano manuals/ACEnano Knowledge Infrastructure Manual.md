@@ -52,9 +52,12 @@ Additional guidance and/or an examples are given to some of the fields in the qu
 4.2.*Contacts* area contains text fields on *Name and email of contact person for the protocols*.
    
 4.3.*Technique and Endpoints* area is different for each of the protocol types: 
+
 4.3.1.For **Sample Preparation Protocol**, it contains a list box with multiple techniques, allowing multiple selection at a time, by holding Ctrl
 
 4.3.2.For the **Measurement Protocol**, it contains a dropdown list on *Technique*, a list box *Endpoints*, allowing multiple selection at a time, by holding Ctrl and a dropdown list on *Phase*.
+
+4.3.3.For the **Data Treatment Protocol**, this part doesn't exist.
   
 5.By pressing the red bottom *Continue to next step* at the end of the first page, the protocol chestionare continues with pages specific for each protocol type:
 
