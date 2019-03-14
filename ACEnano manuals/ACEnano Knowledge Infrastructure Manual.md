@@ -37,25 +37,25 @@ After logging on at https://acenano.douglasconnect.com/ you can add a new protoc
 </p>
 
 3. By clicking the button *Add a new protocol*, a new page is displayed (Fig. 3. Add a new protocol page), containing the description of the different type of protocols (in a questionnaire-like format) which can be added to the database:
-  - Sample preparation protocol
-  - Measurement protocol
-  - Data treatment protocol
-
-Additional guidance and/or an examples are given to some of the fields in the questionnaire.
+    - Sample preparation protocol
+    - Measurement protocol
+    - Data treatment protocol
+  
+  Additional guidance and/or an examples are given to some of the fields in the questionnaire.
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
 </p>
 
 4. For all the three protocols types, the first page of the protocol is approximately the same. It contains an explanation of the protocol parts and the questionnaire on *Part 1: General information*.
-  a. *Protocol name and description* area has the fields *Protocol original name*, *Version of this protocol*, *Variant of this           protocol*, *Brief description*, *Long description*, *References* to be completed with free text and the dropdown lists *Development     phase*, *Confidentiality*, *License* to be clicked for choosing an exclusive item. 
+    a. *Protocol name and description* area has the fields *Protocol original name*, *Version of this protocol*, *Variant of this           protocol*, *Brief description*, *Long description*, *References* to be completed with free text and the dropdown lists *Development     phase*, *Confidentiality*, *License* to be clicked for choosing an exclusive item. 
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
 </p>
 
-  b. *Contacts* area contains text fields on *Name and email of contact person for the protocols*.  
-  c. *Technique and Endpoints* area is different for each of the protocol types: 
-  - For **Sample Preparation Protocol**, it contains a list box with multiple techniques, allowing multiple selection at a time, by         holding Ctrl;
-  - For the **Measurement Protocol**, it contains a dropdown list on *Technique*, a list box *Endpoints*, allowing multiple selection at     a time, by holding Ctrl and a dropdown list on *Phase*.
+    b. *Contacts* area contains text fields on *Name and email of contact person for the protocols*.  
+    c. *Technique and Endpoints* area is different for each of the protocol types: 
+      - For **Sample Preparation Protocol**, it contains a list box with multiple techniques, allowing multiple selection at a time, by         holding Ctrl;
+      - For the **Measurement Protocol**, it contains a dropdown list on *Technique*, a list box *Endpoints*, allowing multiple                 selection at a time, by holding Ctrl and a dropdown list on *Phase*.
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
 </p>
