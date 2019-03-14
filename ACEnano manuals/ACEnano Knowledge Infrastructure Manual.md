@@ -51,11 +51,10 @@ After logging on at https://acenano.douglasconnect.com/ you can add a new protoc
   <p align="center">
     <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
   </p>
-
   b. *Contacts* area contains text fields on *Name and email of contact person for the protocols*.  
   c. *Technique and Endpoints* area is different for each of the protocol types: 
-      - For **Sample Preparation Protocol**, it contains a list box with multiple techniques, allowing multiple selection at a time, by         holding Ctrl;
-      - For the **Measurement Protocol**, it contains a dropdown list on *Technique*, a list box *Endpoints*, allowing multiple                 selection at a time, by holding Ctrl and a dropdown list on *Phase*.
+  - For **Sample Preparation Protocol**, it contains a list box with multiple techniques, allowing multiple selection at a time, by         holding Ctrl;
+  - For the **Measurement Protocol**, it contains a dropdown list on *Technique*, a list box *Endpoints*, allowing multiple                 selection at a time, by holding Ctrl and a dropdown list on *Phase*.
   <p align="center">
     <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
   </p>
