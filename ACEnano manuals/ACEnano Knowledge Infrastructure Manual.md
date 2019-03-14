@@ -37,9 +37,9 @@ The protocols database facilitates the access and sharing of methodologies appli
 </p>
 
 <dd>3. By clicking the button *Add a new protocol*, a new page is displayed (Fig. 3. Add a new protocol page), containing the description of the different type of protocols (in a questionnaire-like format) which can be added to the database:<dd>
-  - Sample preparation protocol
-  - Measurement protocol
-  - Data treatment protocol
+  <dd>- Sample preparation protocol
+  <dd>- Measurement protocol
+  <dd>- Data treatment protocol
    
    <dd>Additional guidance and/or an examples are given to some of the fields in the questionnaire.<dd>
   
