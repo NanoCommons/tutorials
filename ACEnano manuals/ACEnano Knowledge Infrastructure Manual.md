@@ -48,17 +48,18 @@ After logging on at https://acenano.douglasconnect.com/ you can add a new protoc
 
     a. *Protocol name and description* area has the fields *Protocol original name*, *Version of this protocol*, *Variant of this protocol*, *Brief description*, *Long description*, *References* to be completed with free text and the dropdown lists *Development phase*, *Confidentiality*, *License* to be clicked for choosing an exclusive item.
   
-   b. *Contacts* area contains text fields on *Name and email of contact person for the protocols*;
+   b. *Contacts* area contains text fields on *Name and email of contact person for the protocols*.
    c. *Technique and Endpoints* area is different for each of the protocol types: 
      - For **Sample Preparation Protocol**, it contains a list box with multiple techniques, allowing multiple selection at a time, by holding Ctrl;
      - For the **Measurement Protocol**, it contains a dropdown list on *Technique*, a list box *Endpoints*, allowing multiple selection at a time, by holding Ctrl and a dropdown list on *Phase*.
   
 5. By pressing the red bottom *Continue to next step* at the end of the first page, the protocol chestionare continues with pages specific for each protocol type.
 
-6.1. For **Sample Preparation Protocol**, the second page embodies *Part 2: Steps*, containing the *Step* box and the dropdown list of *Actions*. Steps can be deleted by selecting the checkbox *Delete this step* and extended by pressing the *+Add another step* button.
+6. 1. For **Sample Preparation Protocol**, the second page embodies *Part 2: Steps*, containing the *Step* box and the dropdown list of *Actions*. Steps can be deleted by selecting the checkbox *Delete this step* and extended by pressing the *+Add another step* button.
 
 6.2. For the **Measurement Protocol**: 
-    a. The second page embodies *Part 2: Equipment*:  
+
+   a. The second page embodies *Part 2: Equipment*:  
       - *Equipment* area,  with:  *Name*, *Model*, *Instrument type*, *Limit of detection upper*, *Limit of detection lower*, *Limit of       detection unit*, *Instrument settings and parameters* fields; 
       - *Possible datasets*area, with: *Axe*, *Units*  fields; 
       - *Measurement quality parameters* area, with: *Parameter*, *Common setting* and  *Units* fields.
@@ -77,8 +78,8 @@ In each of these areas, the fields can be completed with free text, deleted by c
   <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
 </p>
 
-  b. By clicking the red button *Continue to the next step* the protocol questionnaire continues with another page. 
-  c. The third page embodies *Part 3: Steps*, containing the *Step* number box, *Name* and *Description* fields to be completed with        free text. Optionally, an image can be uploaded via *Chose file* in the *Image* box. Steps can be deleted by selecting the checkbox     *Delete this step* and extended by pressing the *+Add another step* button.
+   b. By clicking the red button *Continue to the next step* the protocol questionnaire continues with another page. 
+   c. The third page embodies *Part 3: Steps*, containing the *Step* number box, *Name* and *Description* fields to be completed with        free text. Optionally, an image can be uploaded via *Chose file* in the *Image* box. Steps can be deleted by selecting the checkbox     *Delete this step* and extended by pressing the *+Add another step* button.
 6.3. For **Data Treatment Protocol**, the second page, embodies *Part 2: Steps*, containing the *Step* number box, *Algorithm applied*, *Resulting data* and *Parameters* fields to be completed with free text.  Steps can be deleted by selecting the checkbox *Delete this step* and extended by pressing the *+Add another step* button.
 7. By clicking  the red *Submit protocol* button at the bottom of the last page of the protocol questionnaire (second page for Sample **Preparation Protocol** and **Data Treatment Protocol** and third page for the **Measurement Protocol**), a page embodying the *Preview protocol* (Fig. Preview protocol page) will appear so the protocol can be proofread before submission. 
 8. If everything it’s alright, the protocol can be committed by pressing the *Submit protocol* button. If corrections/modifications are needed, by pressing the *Make more changes* button, editing can be done in any part or area of the protocol by being redirected at *Part 1: General information* and moving towards the *Preview protocol* page.
