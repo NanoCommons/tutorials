@@ -36,7 +36,7 @@ The protocols database facilitates the access and sharing of methodologies appli
   <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
 </p>
 
-<dd>3. By clicking the button *Add a new protocol*, a new page is displayed (Fig. 3. Add a new protocol page), containing the description of the different type of protocols (in a questionnaire-like format) which can be added to the database:
+<dd>3. By clicking the button *Add a new protocol*, a new page is displayed (Fig. 3. Add a new protocol page), containing the description of the different type of protocols (in a questionnaire-like format) which can be added to the database:<dd>
   - Sample preparation protocol
   - Measurement protocol
   - Data treatment protocol
@@ -47,7 +47,7 @@ The protocols database facilitates the access and sharing of methodologies appli
     <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
   </p>
 
-4. For all the three protocols types, the first page of the protocol is approximately the same. It contains an explanation of the protocol parts and the questionnaire on *Part 1: General information*.
+<dd>4. For all the three protocols types, the first page of the protocol is approximately the same. It contains an explanation of the protocol parts and the questionnaire on *Part 1: General information*.<dd>
 a. *Protocol name and description* area has the fields *Protocol original name*, *Version of this protocol*, *Variant of this protocol*, *Brief description*, *Long description*, *References* to be completed with free text and the dropdown lists *Development phase*, *Confidentiality*, *License* to be clicked for choosing an exclusive item. 
   
   <p align="center">
