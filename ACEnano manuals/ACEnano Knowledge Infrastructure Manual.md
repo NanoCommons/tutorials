@@ -26,7 +26,7 @@ The features of the KI allows the users to:
 The protocols database facilitates the access and sharing of methodologies applied in nanosafety. The methods are easy to browse and are linked to experimental datasets. This tool aims also to facilitate sharing of state of the art methods with the NanoEHS community and beyond.
 
 After logging on at https://acenano.douglasconnect.com/ you can add a new protocol by following these steps:
-1. Click the button *Protocols* from the top menu to open the *ACEnano Protocols* page which is the starting point of the protocols section.
+1. Click the *Protocols* button from the top menu to open the *ACEnano Protocols* page which is the starting point of the protocols section.
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
 </p>
@@ -37,24 +37,25 @@ After logging on at https://acenano.douglasconnect.com/ you can add a new protoc
 </p>
 
 3. By clicking the button *Add a new protocol*, a new page is displayed (Fig. 3. Add a new protocol page), containing the description of the different type of protocols (in a questionnaire-like format) which can be added to the database:
-- Sample preparation protocol
-- Measurement protocol
-- Data treatment protocol
+  - Sample preparation protocol
+  - Measurement protocol
+  - Data treatment protocol
+
 Additional guidance and/or an examples are given to some of the fields in the questionnaire.
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
 </p>
 
 4. For all the three protocols types, the first page of the protocol is approximately the same. It contains an explanation of the protocol parts and the questionnaire on *Part 1: General information*.
-a. *Protocol name and description* area has the fields *Protocol original name*, *Version of this protocol*, *Variant of this protocol*, *Brief description*, *Long description*, *References* to be completed with free text and the dropdown lists *Development phase*, *Confidentiality*, *License* to be clicked for choosing an exclusive item. 
+  a. *Protocol name and description* area has the fields *Protocol original name*, *Version of this protocol*, *Variant of this           protocol*, *Brief description*, *Long description*, *References* to be completed with free text and the dropdown lists *Development     phase*, *Confidentiality*, *License* to be clicked for choosing an exclusive item. 
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
 </p>
 
-b. *Contacts* area contains text fields on *Name and email of contact person for the protocols*.  
-c. *Technique and Endpoints* area is different for each of the protocol types: 
-- For **Sample Preparation Protocol**, it contains a list box with multiple techniques, allowing multiple selection at a time, by holding Ctrl;
-- For the **Measurement Protocol**, it contains a dropdown list on *Technique*, a list box *Endpoints*, allowing multiple selection at a time, by holding Ctrl and a dropdown list on *Phase*.
+  b. *Contacts* area contains text fields on *Name and email of contact person for the protocols*.  
+  c. *Technique and Endpoints* area is different for each of the protocol types: 
+  - For **Sample Preparation Protocol**, it contains a list box with multiple techniques, allowing multiple selection at a time, by         holding Ctrl;
+  - For the **Measurement Protocol**, it contains a dropdown list on *Technique*, a list box *Endpoints*, allowing multiple selection at     a time, by holding Ctrl and a dropdown list on *Phase*.
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
 </p>
@@ -66,25 +67,34 @@ c. *Technique and Endpoints* area is different for each of the protocol types:
 </p>
 
 6.2. For the **Measurement Protocol**: 
-a. The second page embodies *Part 2: Equipment*:  
-- *Equipment* area,  with:  *Name*, *Model*, *Instrument type*, *Limit of detection upper*, *Limit of detection lower*, *Limit of detection unit*, *Instrument settings and parameters* fields; 
-- *Possible datasets*area, with: *Axe*, *Units*  fields; 
-- *Measurement quality parameters* area, with: *Parameter*, *Common setting* and  *Units* fields.
+  a. The second page embodies *Part 2: Equipment*:  
+  - *Equipment* area,  with:  *Name*, *Model*, *Instrument type*, *Limit of detection upper*, *Limit of detection lower*, *Limit of       detection unit*, *Instrument settings and parameters* fields; 
+  - *Possible datasets*area, with: *Axe*, *Units*  fields; 
+  - *Measurement quality parameters* area, with: *Parameter*, *Common setting* and  *Units* fields.
+
 In each of these areas, the fields can be completed with free text, deleted by checking the delete boxes or extended by clicking the addition button. 
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
 </p>
 
+<p align="center">
+  <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
+</p>
 
+<p align="center">
+  <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
+</p>
 
+  b. By clicking the red button *Continue to the next step* the protocol questionnaire continues with another page. 
+  c. The third page embodies *Part 3: Steps*, containing the *Step* number box, *Name* and *Description* fields to be completed with        free text. Optionally, an image can be uploaded via *Chose file* in the *Image* box. Steps can be deleted by selecting the checkbox     *Delete this step* and extended by pressing the *+Add another step* button.
+6.3. For **Data Treatment Protocol**, the second page, embodies *Part 2: Steps*, containing the *Step* number box, *Algorithm applied*, *Resulting data* and *Parameters* fields to be completed with free text.  Steps can be deleted by selecting the checkbox *Delete this step* and extended by pressing the *+Add another step* button.
+7. By clicking  the red *Submit protocol* button at the bottom of the last page of the protocol questionnaire (second page for Sample **Preparation Protocol** and **Data Treatment Protocol** and third page for the **Measurement Protocol**), a page embodying the *Preview protocol* (Fig. Preview protocol page) will appear so the protocol can be proofread before submission. 
+8. If everything it’s alright, the protocol can be committed by pressing the *Submit protocol* button. If corrections/modifications are needed, by pressing the *Make more changes* button, editing can be done in any part or area of the protocol by being redirected at *Part 1: General information* and moving towards the *Preview protocol* page.
+<p align="center">
+  <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
+</p>
 
-
-
-
-
- 
-
-
+9. After pressing the *Submit protocol* button from *Preview protocol* page, the new added protocol will appear on top of the *LATEST POSTS* list with the flag *protocol*,  a small description and the type of the protocol and the date when it was published(submitted).
 
 ## How do I create a new data workflow?
 The data warehouse offers long-term storage of data produced by the nanosafety community. The data warehouse aims to support the data harmonisation and the implementation of FAIR principles towards the goal of generating a reference resource for nanomaterials risk assessment.
