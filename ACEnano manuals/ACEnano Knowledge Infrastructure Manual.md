@@ -55,6 +55,14 @@ Additional guidance and/or an examples are given to some of the fields in the qu
   Fig. 3. Adding a new protocol page
 </p>
 
+
+<p align="center">
+  <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/AddNew.png">
+  <b>Some Links:</b><br>
+  <a href="#">Link 1</a> |
+  <br><br>
+</p>
+
 Fig. 3. *Add a new protocol* page
 
 4.For all the three protocols types, the first page of the protocol is approximately the same. It contains an explanation of the protocol parts and the questionnaire on *Part 1: General information*.
