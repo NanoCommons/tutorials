@@ -140,6 +140,7 @@ In each of these areas, the fields can be completed with free text, deleted by c
 <p align="center">
   <img width="440" height="380" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Review.png">
 </p>
+
 <p style="text-align: center;">Fig. Preview protocol page</p>
 
 8.After pressing the *Submit protocol* button from *Preview protocol* page, the new added protocol will appear on top of the *LATEST POSTS* list with the flag *protocol*,  a small description and the type of the protocol and the date when it was published(submitted).
