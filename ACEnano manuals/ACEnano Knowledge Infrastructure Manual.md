@@ -46,7 +46,7 @@ Fig. 2. *ACEnano Protocols* page
 
 Additional guidance and/or an examples are given to some of the fields in the questionnaire.
 
-![My image]https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/AddNew.png)
+![My image](https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/AddNew.png)
 
 Fig. 3. *Add a new protocol* page
 
