@@ -28,9 +28,16 @@ The protocols database facilitates the access and sharing of methodologies appli
 After logging on at https://acenano.douglasconnect.com/ you can add a new protocol by following these steps:
 
 1.Click the *Protocols* button from the top menu to open the *ACEnano Protocols* page which is the starting point of the protocols section. 
-<p align="center">
-  <img src="https://github.com/NanoCommons/tutorials/tree/master/ACEnano%20manuals/Images/Home_page.png" width="500" title= "Home page">
-</p>
+
+.center[
+
+![My image](https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Intro.png)
+
+.caption[
+**Fig. 1:** ACEnano intro page
+]
+
+]
 
 2.*ACEnano Protocols* page contains an explanatory paragraph and a scheme on the process of accessing and sharing the protocols, a red button *Add a new protocol* and the list of all added protocols until date labelled on *Protocol type*, *Protocol name* and *Posted*.
 
