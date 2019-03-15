@@ -57,9 +57,8 @@ Additional guidance and/or an examples are given to some of the fields in the qu
 
 
 <p align="center">
-  <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/AddNew.png">
+  <img width="460" height="300" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/AddNew.png">
   <b>Some Links:</b><br>
-  <a href="#">Link 1</a> |
   <br><br>
 </p>
 
