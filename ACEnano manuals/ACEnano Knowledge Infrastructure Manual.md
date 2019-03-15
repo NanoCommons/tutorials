@@ -30,7 +30,7 @@ After logging on at https://acenano.douglasconnect.com/ you can add a new protoc
 1.Click the *Protocols* button from the top menu to open the *ACEnano Protocols* page which is the starting point of the protocols section. 
 
 <p align="center">
-  <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Intro.png">
+  <img width="460" height="300" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Intro.png">
   <b>Fig. 1 *ACEnano intro* page</b><br> 
   <br><br>
 </p>
@@ -40,7 +40,7 @@ Fig. 1 *ACEnano intro* page
 2.*ACEnano Protocols* page contains an explanatory paragraph and a scheme on the process of accessing and sharing the protocols, a red button *Add a new protocol* and the list of all added protocols until date labelled on *Protocol type*, *Protocol name* and *Posted*.
 
 <p align="center">
-  <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/ProtocolsPage.png">
+  <img width="460" height="300" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/ProtocolsPage.png">
   <b>Fig. 2. ACEnano Protocols page</b><br> 
   <br><br>
 </p>
@@ -55,7 +55,7 @@ Fig. 2. *ACEnano Protocols* page
 Additional guidance and/or an examples are given to some of the fields in the questionnaire.
 
 <p align="center">
-  <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/AddNew.png">
+  <img width="460" height="300" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/AddNew.png">
   <b>Fig. 3. Adding a new protocol page</b><br> 
   <br><br>
 </p>
@@ -67,7 +67,7 @@ Fig. 3. *Add a new protocol* page
 4.1.*Protocol name and description* area has the fields *Protocol original name*, *Version of this protocol*, *Variant of this protocol*, *Brief description*, *Long description*, *References* to be completed with free text and the dropdown lists *Development phase*, *Confidentiality*, *License* to be clicked for choosing an exclusive item.
 
 <p align="center">
-  <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/GenInfo.png">
+  <img width="460" height="300" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/GenInfo.png">
   <b>Fig. Protocol name and description area</b><br> 
   <br><br>
 </p>
@@ -83,7 +83,7 @@ Fig. *Protocol name and description* area
 4.3.2.For the **Measurement Protocol**, it contains a dropdown list on *Technique*, a list box *Endpoints*, allowing multiple selection at a time, by holding Ctrl and a dropdown list on *Phase*.
 
 <p align="center">
-  <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Contacts_Technique.png">
+  <img width="460" height="300" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Contacts_Technique.png">
   <b>Fig. Contacts area and Technique and Endpoints area</b><br> 
   <br><br>
 </p>
@@ -95,7 +95,7 @@ Fig. *Protocol name and description* area
 5.1.For **Sample Preparation Protocol**, the second page embodies *Part 2: Steps*, containing the *Step* box and the dropdown list of *Actions*. Steps can be deleted by selecting the checkbox *Delete this step* and extended by pressing the *+Add another step* button.
 
 <p align="center">
-  <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Steps.png">
+  <img width="460" height="300" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Steps.png">
     <b>Fig. Page 2 of Sample Preparation Protocol</b><br>
   <br><br>
 </p>
@@ -110,19 +110,19 @@ Fig. *Protocol name and description* area
 In each of these areas, the fields can be completed with free text, deleted by checking the delete boxes or extended by clicking the addition button. 
 
 <p align="center">
-  <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Equipment.png">
+  <img width="460" height="300" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Equipment.png">
   <b>Fig. Equipment area from Part 2 of Measurement Protocol</b><br>
   <br><br>
 </p>
 
 <p align="center">
-  <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/PossibleDataSets.png">
+  <img width="460" height="300" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/PossibleDataSets.png">
   <b>Fig. Possible datasets area from Part 2 of Measurement Protocoll</b><br>
   <br><br>
 </p>
 
 <p align="center">
-  <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/MeasurementQualityParam.png">
+  <img width="460" height="300"src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/MeasurementQualityParam.png">
   <b>Fig. Measurement quality parameters area from Part 2 of Measurement Protocol</b><br>
   <br><br>
 </p>
@@ -138,7 +138,7 @@ In each of these areas, the fields can be completed with free text, deleted by c
 7.If everything it’s alright, the protocol can be committed by pressing the *Submit protocol* button. If corrections/modifications are needed, by pressing the *Make more changes* button, editing can be done in any part or area of the protocol by being redirected at *Part 1: General information* and moving towards the *Preview protocol* page.
 
 <p align="center">
-  <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Review.png">
+  <img width="460" height="300" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Review.png">
   <b>Fig. Preview protocol page</b><br>
   <br><br>
 </p>
