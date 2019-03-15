@@ -58,7 +58,8 @@ Additional guidance and/or an examples are given to some of the fields in the qu
 
 <p align="center">
   <img width="460" height="300" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/AddNew.png">
-  <b>Some Links:</b><br>
+  <b>Fig. 3.</b><br>
+  <a Adding a new protocol page</a> 
   <br><br>
 </p>
 
