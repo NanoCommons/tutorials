@@ -38,6 +38,10 @@ After logging on at https://acenano.douglasconnect.com/ you can add a new protoc
 ]
 
 ]
+.caption {
+  text-align: center;
+  font-size: .8rem;
+}
 
 2.*ACEnano Protocols* page contains an explanatory paragraph and a scheme on the process of accessing and sharing the protocols, a red button *Add a new protocol* and the list of all added protocols until date labelled on *Protocol type*, *Protocol name* and *Posted*.
 
