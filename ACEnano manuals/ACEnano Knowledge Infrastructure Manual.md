@@ -61,6 +61,12 @@ Fig. 3. *Add a new protocol* page
 4.For all the three protocols types, the first page of the protocol is approximately the same. It contains an explanation of the protocol parts and the questionnaire on *Part 1: General information*.
 
 4.1.*Protocol name and description* area has the fields *Protocol original name*, *Version of this protocol*, *Variant of this protocol*, *Brief description*, *Long description*, *References* to be completed with free text and the dropdown lists *Development phase*, *Confidentiality*, *License* to be clicked for choosing an exclusive item.
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/GenInfo.png">
+</p>
+ 
+Fig. *Protocol name and description* area
   
 4.2.*Contacts* area contains text fields on *Name and email of contact person for the protocols*.
    
@@ -70,11 +76,21 @@ Fig. 3. *Add a new protocol* page
 
 4.3.2.For the **Measurement Protocol**, it contains a dropdown list on *Technique*, a list box *Endpoints*, allowing multiple selection at a time, by holding Ctrl and a dropdown list on *Phase*.
 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Contacts_Technique.png">
+</p>
+
 4.3.3.For the **Data Treatment Protocol**, this part doesn't exist.
   
 5.By pressing the red bottom *Continue to next step* at the end of the first page, the protocol chestionare continues with pages specific for each protocol type:
 
 5.1.For **Sample Preparation Protocol**, the second page embodies *Part 2: Steps*, containing the *Step* box and the dropdown list of *Actions*. Steps can be deleted by selecting the checkbox *Delete this step* and extended by pressing the *+Add another step* button.
+
+<p align="center">
+  <b>Fig. 3. *Add a new protocol* page</b><br>
+  <br><br>
+  <img width="460" height="300" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Steps.png">
+</p>
 
 5.2.For the **Measurement Protocol**:
 
