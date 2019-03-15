@@ -29,8 +29,6 @@ After logging on at https://acenano.douglasconnect.com/ you can add a new protoc
 
 1.Click the *Protocols* button from the top menu to open the *ACEnano Protocols* page which is the starting point of the protocols section. 
 
-![My image](https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Intro.png)
-
 <p align="center">
   <img width="460" height="300" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Intro.png">
 </p>
@@ -39,7 +37,9 @@ Fig. 1 *ACEnano intro* page
 
 2.*ACEnano Protocols* page contains an explanatory paragraph and a scheme on the process of accessing and sharing the protocols, a red button *Add a new protocol* and the list of all added protocols until date labelled on *Protocol type*, *Protocol name* and *Posted*.
 
-![My image](https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/ProtocolsPage.png)
+<p align="center">
+  <img width="460" height="300" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/ProtocolsPage.png">
+</p>
 
 Fig. 2. *ACEnano Protocols* page
 
@@ -50,7 +50,9 @@ Fig. 2. *ACEnano Protocols* page
 
 Additional guidance and/or an examples are given to some of the fields in the questionnaire.
 
-![My image](https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/AddNew.png)
+<p align="center">
+  <img width="460" height="300" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/AddNew.png">
+</p>
 
 Fig. 3. *Add a new protocol* page
 
