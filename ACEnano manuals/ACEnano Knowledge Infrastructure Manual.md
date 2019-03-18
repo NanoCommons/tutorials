@@ -14,7 +14,7 @@
 
 [How do I add a new protocol?](#How-do-I-add-a-new-protocol?)
 
-[How do I create a new data workflow?](How-do-I-create-a-new-data-workflow?)
+[How do I create a new data workflow?](#How-do-I-create-a-new-data-workflow?)
 
 [How can I request support or suggest improvements of the platform?](#How-can-I-request-support-or-suggest-improvements-of-the-platform?)
 
@@ -40,23 +40,19 @@ After logging on at https://acenano.douglasconnect.com/ you can add a new protoc
 
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Intro.png">
-  <b>Fig. 1 ACEnano intro page</b><br> 
+  <b>Fig.1.ACEnano intro page</b><br> 
   <br><br>
 </p>
 
-Fig. 1 *ACEnano intro* page
-
-2.*ACEnano Protocols* page contains an explanatory paragraph and a scheme on the process of accessing and sharing the protocols, a red button *Add a new protocol* and the list of all added protocols until date labelled on *Protocol type*, *Protocol name* and *Posted*.
+2.*ACEnano Protocols* page contains an explanatory paragraph and a scheme on the process of accessing and sharing the protocols, a red button *Add a new protocol* and the list of all added protocols until date, labelled on *Protocol type*, *Protocol name* and *Posted*.
 
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/ProtocolsPage.png">
-  <b>Fig. 2. ACEnano Protocols page</b><br> 
+  <b>Fig.2.ACEnano Protocols page</b><br> 
   <br><br>
 </p>
 
-Fig. 2. *ACEnano Protocols* page
-
-3.By clicking the button *Add a new protocol*, a new page is displayed (Fig. 3. Add a new protocol page), containing the description of the different type of protocols (in a questionnaire-like format) which can be added to the database:
+3.By clicking the button *Add a new protocol*, a new page is displayed (Fig. 3. Add a new protocol page), containing the description of the different protocols type (in a questionnaire-like format) which can be added to the database:
   - **Sample Preparation Protocol**
   - **Measurement Protocol**
   - **Data Treatment Protocol**
@@ -65,39 +61,35 @@ Additional guidance and/or an examples are given to some of the fields in the qu
 
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/AddNew.png">
-  <b>Fig. 3. Adding a new protocol page</b><br> 
+  <b>Fig.3.Adding a new protocol page</b><br> 
   <br><br>
 </p>
 
-Fig. 3. *Add a new protocol* page
-
-4.For all the three protocols types, the first page of the protocol is approximately the same. It contains an explanation of the protocol parts and the questionnaire on *Part 1: General information*.
+4.For all the three protocols types, the first page of the protocol is approximately the same. It contains an explanation of the protocol parts and the questionnaire on *Part 1: General information*:
 
 4.1.*Protocol name and description* area has the fields *Protocol original name*, *Version of this protocol*, *Variant of this protocol*, *Brief description*, *Long description*, *References* to be completed with free text and the dropdown lists *Development phase*, *Confidentiality*, *License* to be clicked for choosing an exclusive item.
 
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/GenInfo.png">
-  <b>Fig. Protocol name and description area</b><br> 
+  <b>Fig.4.Protocol name and description area</b><br> 
   <br><br>
 </p>
- 
-Fig. *Protocol name and description* area
   
 4.2.*Contacts* area contains text fields on *Name and email of contact person for the protocols*.
    
 4.3.*Technique and Endpoints* area is different for each of the protocol types: 
 
-4.3.1.For **Sample Preparation Protocol**, it contains a list box with multiple techniques, allowing multiple selection at a time, by holding Ctrl
+4.3.1.For **Sample Preparation Protocol**, it contains a list box with several techniques, allowing multiple selection at a time, by holding Ctrl.
 
 4.3.2.For the **Measurement Protocol**, it contains a dropdown list on *Technique*, a list box *Endpoints*, allowing multiple selection at a time, by holding Ctrl and a dropdown list on *Phase*.
 
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Contacts_Technique.png">
-  <b>Fig. Contacts area and Technique and Endpoints area</b><br> 
+  <b>Fig.5.Contacts area and Technique and Endpoints area</b><br> 
   <br><br>
 </p>
 
-4.3.3.For the **Data Treatment Protocol**, this part doesn't exist.
+4.3.3.For the **Data Treatment Protocol**, this part, on *Technique and Endpoints*, doesn't exist.
   
 5.By pressing the red bottom *Continue to next step* at the end of the first page, the protocol chestionare continues with pages specific for each protocol type:
 
@@ -105,7 +97,7 @@ Fig. *Protocol name and description* area
 
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Steps.png">
-    <b>Fig. Page 2 of Sample Preparation Protocol</b><br>
+    <b>Fig.6.Page 2 of Sample Preparation Protocol</b><br>
   <br><br>
 </p>
 
@@ -120,19 +112,19 @@ In each of these areas, the fields can be completed with free text, deleted by c
 
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Equipment.png">
-  <b>Fig. Equipment area from Part 2 of Measurement Protocol</b><br>
+  <b>Fig.7.Equipment area from Part 2 of Measurement Protocol</b><br>
   <br><br>
 </p>
 
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/PossibleDataSets.png">
-  <b>Fig. Possible datasets area from Part 2 of Measurement Protocoll</b><br>
+  <b>Fig.8.Possible datasets area from Part 2 of Measurement Protocoll</b><br>
   <br><br>
 </p>
 
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/MeasurementQualityParam.png">
-  <b>Fig. Measurement quality parameters area from Part 2 of Measurement Protocol</b><br>
+  <b>Fig.9.Measurement quality parameters area from Part 2 of Measurement Protocol</b><br>
   <br><br>
 </p>
 
@@ -140,15 +132,15 @@ In each of these areas, the fields can be completed with free text, deleted by c
 
 5.2.3.The third page embodies *Part 3: Steps*, containing the *Step* number box, *Name* and *Description* fields to be completed with    free text. Optionally, an image can be uploaded via *Chose file* in the *Image* box. Steps can be deleted by selecting the checkbox     *Delete this step* and extended by pressing the *+Add another step* button.
 
-5.3. For **Data Treatment Protocol**, the second page, embodies *Part 2: Steps*, containing the *Step* number box, *Algorithm applied*, *Resulting data* and *Parameters* fields to be completed with free text.  Steps can be deleted by selecting the checkbox *Delete this step* and extended by pressing the *+Add another step* button.
+5.3.For **Data Treatment Protocol**, the second page, embodies *Part 2: Steps*, containing the *Step* number box, *Algorithm applied*, *Resulting data* and *Parameters* fields to be completed with free text.  Steps can be deleted by selecting the checkbox *Delete this step* and extended by pressing the *+Add another step* button.
 
 6.By clicking  the red *Submit protocol* button at the bottom of the last page of the protocol questionnaire (second page for Sample **Preparation Protocol** and **Data Treatment Protocol** and third page for the **Measurement Protocol**), a page embodying the *Preview protocol* (Fig. Preview protocol page) will appear so the protocol can be proofread before submission. 
 
-7.If everything it’s alright, the protocol can be committed by pressing the *Submit protocol* button. If corrections/modifications are needed, by pressing the *Make more changes* button, editing can be done in any part or area of the protocol by being redirected at *Part 1: General information* and moving towards the *Preview protocol* page.
+7.If everything it’s alright, the protocol can be committed by pressing the *Submit protocol* button. If corrections/modifications are needed, by pressing the *Make more changes* button, edits can be done in any part or area of the protocol by being redirected at *Part 1: General information* and moving towards the *Preview protocol* page.
 
 <p align="center">
   <img src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Review.png">
-  <b>Fig. Fig. Preview protocol page</b><br>
+  <b>Fig.10.Preview protocol page</b><br>
   <br><br>
 </p>
 
