@@ -8,6 +8,8 @@
 **Web access**: https://acenano.douglasconnect.com/
 
 ## Table of contents
+[How do I access the knowledge infrastructure?](#How do I access the knowledge infrastructure?)
+
 
 ## How do I access the knowledge infrastructure?
 The ACEnano knowledge infrastructure is freely available to anyone interested in accessing or uploading data (including protocols and experimental results) related to physicochemical characterisation of nanomaterials.
