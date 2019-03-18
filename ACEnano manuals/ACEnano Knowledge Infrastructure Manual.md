@@ -8,7 +8,7 @@
 **Web access**: https://acenano.douglasconnect.com/
 
 ## Table of contents
-(#How-do-I-access-the-knowledge-infrastructure?)
+[How.do.I.access.the.knowledge.infrastructure?](#How-do-I-access-the-knowledge-infrastructure?)
 
 [What are the main features of the knowledge infrastructure?](#What-are-the-main-features-of-the-knowledge-infrastructure?)
 
