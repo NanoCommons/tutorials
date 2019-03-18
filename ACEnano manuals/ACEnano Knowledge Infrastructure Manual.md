@@ -151,7 +151,7 @@ The data warehouse offers long-term storage of data produced by the nanosafety c
 To achieve this goal, the user can select any of the data on samples and methods added into the protocols database, create and save the full workflow applied for the nanomaterials characterisation and link with the measurement results. This facilitates the tracking of results to the methodology, comparison of methods and results between different users or laboratories, support the round-robin experiments for method benchmarking and finally document all steps performed on a sample from the identification to the final results.
 
 
-## How can I request support or suggest improvements of the platform?
+## How to request support or suggest improvements of the platform
 For any inquiries regarding the content or functionalities of the Knowledge Infrastructure, You can contact us by email:
 * Suggestions or technical issues: ACEnano team at Edelweiss Connect acenano@edelweissconnect.com
 * For general support on protocols: Dr. Geert Cornelis, SLU geert.cornelis@slu.se
