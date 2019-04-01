@@ -64,7 +64,7 @@ Additional guidance and/or an examples are given to some of the fields in the qu
 4.1.*Protocol name and description* area has the fields *Protocol original name*, *Version of this protocol*, *Variant of this protocol*, *Brief description*, *Long description*, *References* to be completed with free text and the dropdown lists *Development phase*, *Confidentiality*, *License* to be clicked for choosing an exclusive item.
 
 <p align="center">
-  <img width="600" height="360" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/GenInfo.png">
+  <img width="500" height="400" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/GenInfo.png">
 </p>
   
 4.2.*Contacts* area contains text fields on *Name and email of contact person for the protocols*.
