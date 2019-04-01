@@ -56,7 +56,7 @@ After logging on at https://acenano.douglasconnect.com/ you can add a new protoc
 Additional guidance and/or an examples are given to some of the fields in the questionnaire.
 
 <p align="center">
-  <img width="500" height="400" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/AddNew.png">
+  <img width="600" height="360" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/AddNew.png">
 </p> 
 
 4.For all the three protocols types, the first page of the protocol is approximately the same. It contains an explanation of the protocol parts and the questionnaire on *Part 1: General information*:
@@ -64,7 +64,7 @@ Additional guidance and/or an examples are given to some of the fields in the qu
 4.1.*Protocol name and description* area has the fields *Protocol original name*, *Version of this protocol*, *Variant of this protocol*, *Brief description*, *Long description*, *References* to be completed with free text and the dropdown lists *Development phase*, *Confidentiality*, *License* to be clicked for choosing an exclusive item.
 
 <p align="center">
-  <img width="500" height="400" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/GenInfo.png">
+  <img width="600" height="360" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/GenInfo.png">
 </p>
   
 4.2.*Contacts* area contains text fields on *Name and email of contact person for the protocols*.
@@ -120,7 +120,7 @@ In each of these areas, the fields can be completed with free text, deleted by c
 7.If everything it’s alright, the protocol can be committed by pressing the *Submit protocol* button. If corrections/modifications are needed, by pressing the *Make more changes* button, edits can be done in any part or area of the protocol by being redirected at *Part 1: General information* and moving towards the *Preview protocol* page.
 
 <p align="center">
-  <img width="500" height="400" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Review.png">
+  <img width="400" height="400" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Review.png">
 </p>
 
 8.After pressing the *Submit protocol* button from *Preview protocol* page, the new added protocol will appear on top of the *LATEST POSTS* list with the flag *protocol*,  a small description and the type of the protocol and the date when it was published(submitted).
