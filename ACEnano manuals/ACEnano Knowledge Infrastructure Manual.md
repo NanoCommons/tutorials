@@ -98,16 +98,16 @@ Additional guidance and/or an examples are given to some of the fields in the qu
 
 In each of these areas, the fields can be completed with free text, deleted by checking the delete boxes or extended by clicking the addition button. 
 
-<!--   <img width="500" height="400" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Equipment.png">
-</p> -->
+<img width="500" height="400" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Equipment2.png">
+</p>
 
-<!-- <p align="center">
-  <img width="500" height="400" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/PossibleDataSets.png">
-</p> -->
+<p align="center">
+  <img width="500" height="400" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/PossibleDataSets2.png">
+</p> 
 
-<!-- <p align="center">
-  <img width="500" height="400" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/MeasurementQualityParam.png">
-</p>-->
+<p align="center">
+  <img width="500" height="400" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/MeasurementQualityParam2.png">
+</p>
 
 5.2.2.By clicking the red button *Continue to the next step* the protocol questionnaire continues with another page. 
 
