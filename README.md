@@ -2,6 +2,9 @@
 
 This repository contains tutorials developed and/or hosted by NanoCommons.
 
+* [Adding nanomaterial data](enteringData/index.md)
+* [ACEnano Knowledge Infrastructure Manual](ACEnano manuals/1. Cover page.md)
+
 ## Acknowledgement
 
 This registry is supported by [NanoCommons](https://www.nanocommons.eu/).
