@@ -16,14 +16,14 @@ trainingMaterial:
   url:
     - "@type": URL
       url: https://enanomapper.github.io/tutorials/enteringData/
-  version: 0.9.1
+  version: 0.9.2
 ---
 
 # Adding nanomaterial data
 
 * Author: Egon Willighagen (orcid:[0000-0001-7542-0286](https://orcid.org/0000-0001-7542-0286))
 * License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-* Version: 0.9.1
+* Version: 0.9.2
 * Source: [https://github.com/NanoCommons/tutorials/blob/master/enteringData/index.md](https://github.com/NanoCommons/tutorials/blob/master/enteringData/index.md)
 
 Adding nanomaterial data to an eNanoMapper instance can be done in many different ways, as one would
@@ -75,7 +75,7 @@ Because using namespaces makes the RDF more readable, this tutorial uses the fol
 
 ```turtle
 @prefix bao:   <http://www.bioassayontology.org/bao#> .
-@prefix cito:  <http://purl.org/net/cito/>
+@prefix cito:  <http://purl.org/net/cito/> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
