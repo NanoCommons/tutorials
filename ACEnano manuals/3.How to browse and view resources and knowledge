@@ -1,0 +1,20 @@
+Browsing and viewing the existing resources and knowledge generated in ACEnano is easy as the home page of the Knowledge Infrastructure contains in the center the *TECHNIQUES CATALOGUE*, *LATEST PUBLICATIONS*, *UPCOMING EVENTS* tables and in the upper righter part, the list with possible sections to be explored; *Techniques and endpoints*, *Protocols*, *Data*, *Events & Publications*.
+
+The *TECHNIQUES CATALOGUE*, includes the name of the techniques and the relevant endpoints, the number of protocols, data workflows and providers. The catalogue gather all methods and endpoints used in ACEnano, helping the users to find, select and learn about these techniques.
+
+<p align="center">
+  <img width="500" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Photos/IntroCat.png">
+</p>
+
+To browse and view techniques and endpoints, data, protocols or events& publications click the buttons *Explore the catalogue*, *View the protocols*, *Explore the data* or *Events*, *Publications* from the *EXPLORE* sections list in the right of the home page. 
+After clicking any of these buttons, the page of the matching section will be displayed, listing the available materials with few details. The resources can be searched and filtered.
+
+<p align="center">
+  <img width="500" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Photos/CatTecEnd.png">
+</p>
+
+To access a detailed page on a material of interest, click the link of its entry in the table with the available materials laid out.
+
+<p align="center">
+  <img width="500" src="https://github.com/NanoCommons/tutorials/blob/master/ACEnano%20manuals/Photos/CatDet.png">
+</p>
