@@ -16,7 +16,7 @@ trainingMaterial:
   url:
     - "@type": URL
       url: https://enanomapper.github.io/tutorials/enteringData/
-  version: 0.9.2
+  version: 0.9.3
 ---
 
 # Adding nanomaterial data
@@ -128,7 +128,7 @@ owner:NT18-S1
 ```
 
 This example is taken from a recent paper by the
-[HINAMOX project](https://tools.wmflabs.org/scholia/sponsor/Q55095501)
+[HINAMOX project](https://scholia.toolforge.org/sponsor/Q55095501)
 (doi:[10.3390/ijms19010246](https://doi.org/10.3390/ijms19010246)).
 
 To figure out what *type* of nanomaterial you have, you can browse the eNanoMapper ontology (see the aforementioned
