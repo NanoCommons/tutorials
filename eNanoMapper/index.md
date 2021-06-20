@@ -19,6 +19,13 @@ trainingMaterial:
   version: 0.0.1
 ---
 
+# Adding new term to the eNanoMapper ontology
+
+* Author: Laurent Winckers (orcid:[0000-0002-9454-4783](https://orcid.org/0000-0002-9454-4783))
+* License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* Version: 0.0.1
+* Source: [https://github.com/NanoCommons/tutorials/blob/master/eNanoMapper/index.md](https://github.com/NanoCommons/tutorials/blob/master/eNanoMapper/index.md)
+
 
 **An example of a new term, unavailable from any ontology**
 
