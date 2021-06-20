@@ -59,3 +59,77 @@ We here propose a multistep coloring scheme:
 * <span style="background-color: #D2691E">Orange</span>: terms that someone has started working on, but for which no ontology term has been found yet, and that have been added to the terminology harmoniser for discussion.
 * <span style="background-color: #00BFFF">Blue</span>: for axioms (statements that are undeniably true). This color is of interest to the true ontologist mostly. 
 
+The first step is therefore to just use your yellow marker to color all terms that you think need annotation with yellow.  Only colour the first use of each term. 
+
+After that you can work out the ontological aspects. 
+
+If an existing term is known, the compact identifier can be added and the color can be changed to green. Ontologists may axiomize the
+term as a combination of other ontology terms, and will use the color blue.  If no clear exact ontological match is found, then the
+[Terminology Harmonizer](https://terminology-harmonizer.greendecision.eu/)
+can be used (see below for details on how to add terms & sources).  Then the term can be colored orange and a URL to the harmonizer
+can be added as comment.
+
+## From yellow to orange, green, or blue
+
+Choose a <span style="background-color: #FFFF00">yellow</span> term.  
+
+Open one of the ontology Look-up sites (listed below) and search for the term of interest. 
+
+If you find a suitable ontology term, turn the term green in the Google doc and add the ontology source:number in square brackets
+immediately after the term. E.g. <span style="background-color: #32CD32">solvent [chebi:46787]</span>.
+
+If no suitable ontology term is found, change the highlighting to <span style="background-color: #D2691E">orange</span>
+in the Google Doc and add the term to the Terminology Harmoniser. If you are able to add a definition, even if not perfect,
+do that – this can be from Wikipedia, a paper, an existing ontology term that is partly correct or based on your own understanding
+for now.  
+
+We will have a follow-on hackathon session to discuss and refine the added terms and once agreed these can be added to the NSC ontology. 
+
+## Where to look up ontology terms:
+
+There are a number of ontology lookup services including:
+
+* EMBL-EBI [Ontology Lookup Service](https://www.ebi.ac.uk/ols/index)
+* [BioPortal](https://bioportal.bioontology.org/) (use the Search for a Class box)
+* [Aber-OWL](http://www.aber-owl.net/#/)
+
+Please also review the [ENM ontology tutorial](https://enanomapper.github.io/tutorials/BrowseOntology/Tutorial%20browsing%20eNM%20ontology.html).
+
+## A brief tutorial for adding terms to the NSC Terminology Harmoniser: 
+
+First step is to log in via this link: [https://terminology-harmonizer.greendecision.eu/login](https://terminology-harmonizer.greendecision.eu/login)
+
+### Go to the Nanoinformatics and simulations workspace and check if the term is already listed:
+
+IMAGE 1
+
+### To add a new term (called Enumerations in the Harmoniser) – click the large blue cross:
+
+IMAGE 2
+
+### Add term and a starting definition
+
+IMAGE 3
+
+### Adding sources
+
+Add a source – click on the grey + sign beside sources – a pop up box appears where you can add source (ISO document, link, paper ontology).
+
+IMAGE 4
+
+### Realted terms
+
+You can add a related term that is one level lower by clicking the down arrow in your added term.  For example, if you wanted to define
+the range of applicable solvents – water, physiological buffer, cell culture medium etc.).  Do this using the blue cross below your term:
+
+IMAGE 5
+
+## Acknowledgements
+
+NanoCommons is an EU-H2020 research infrastructure funded under grant agreement nº 731032. The Terminology Harmonizer has been developed
+within the H2020 project GRACIOUS funded under grant agreement nº 760840.
+
+## References
+* Power, D., Rouse, I., Poggio, S., Brandt, E., Lopez, H., Lyubartsev, A., Lobaskin, V.  A multiscale model of protein adsorption on a nanoparticle surface. Modelling Simul. Mater. Sci. Eng. 27, 084003 (2019). doi:[10.1088/1361-651X/ab3b6e](https://doi.org/10.1088/1361-651X/ab3b6e)
+* Wimalaratne, S., Juty, N., Kunze, J. et al. Uniform resolution of compact identifiers for biomedical data. Sci Data 5, 180029 (2018). doi:[10.1038/sdata.2018.29](https://doi.org/10.1038/sdata.2018.29)
+
