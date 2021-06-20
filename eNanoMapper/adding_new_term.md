@@ -15,7 +15,7 @@ trainingMaterial:
   license: CC-BY 4.0
   url:
     - "@type": URL
-      url: https://github.com/nanocommons/tutorials/eNanoMapper/adding_new_term.md
+      url: https://nanocommons.github.io/tutorials/eNanoMapper/
   version: 0.0.1
 ---
 
@@ -28,13 +28,13 @@ New terms are defined as Web Ontology Language (OWL) classes, and should have a 
 
 For example it may look like:
 
-```
- <!-- http://purl.enanomapper.org/onto/ENM_0000115 -->
+```xml
+<!-- http://purl.enanomapper.org/onto/ENM_0000115 -->
 
-    <owl:Class rdf:about="http://purl.enanomapper.org/onto/ENM_0000115">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/npo#NPO_1597"/>
-        <rdfs:label xml:lang="en">protein corona</rdfs:label>
-    </owl:Class>
+<owl:Class rdf:about="http://purl.enanomapper.org/onto/ENM_0000115">
+  <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/npo#NPO_1597"/>
+  <rdfs:label xml:lang="en">protein corona</rdfs:label>
+</owl:Class>
 ```
 
 The example shows how a term with label _protein corona_ added as a subclass of "http://purl.bioontology.org/ontology/npo#NPO_1597" (which is the superclass). In this example we gave the term _protein corona_ the unique identifier ENM_0000115.
