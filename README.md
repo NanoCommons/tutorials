@@ -2,6 +2,7 @@
 
 This repository contains tutorials developed and/or hosted by NanoCommons.
 
+* [Adding new term to the eNanoMapper ontology](eNanoMapper/index.md)
 * [Adding nanomaterial data](enteringData/index.md)
 * [ACEnano Knowledge Infrastructure Manual](ACEnano%20manuals/)
 
