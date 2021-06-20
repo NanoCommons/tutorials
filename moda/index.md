@@ -45,3 +45,17 @@ agreeing definitions and getting the terms added to the ENM ontology ([https://g
 
 ## Procedure
 
+In a recent NanoCommons meeting we marked-up a copy of the MODA for Calculations of Binding Free Energies and Potentials of Mean Force,
+which documents the SmartNanoTox multiscale model of protein adsorption on a nanoparticle surface (Power et al., 2019).
+
+The task is then to first identify terms in the document that can or should be annotated. One can consider downstream purposes when
+considering the terms. For example, maybe you want to enable a search index to easily find MODA templates based on software used, model
+used, material types simulated, etc.  
+
+We here propose a multistep coloring scheme:
+
+* <span style="background-color: #FFFF00">Yellow</span>: terms that need to be annotated with an ontology term (see below for instructions on how to look up ontology terms).  
+* <span style="background-color: #32CD32">Green</span>: terms for which an existing ontology term exists and that are well established. After coloring them green, the ontology term is added as a compact identifier.
+* <span style="background-color: #D2691E">Orange</span>: terms that someone has started working on, but for which no ontology term has been found yet, and that have been added to the terminology harmoniser for discussion.
+* <span style="background-color: #00BFFF">Blue</span>: for axioms (statements that are undeniably true). This color is of interest to the true ontologist mostly. 
+
