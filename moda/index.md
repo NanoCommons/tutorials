@@ -126,8 +126,8 @@ IMAGE 5
 
 ## Acknowledgements
 
-NanoCommons is an EU-H2020 research infrastructure funded under grant agreement nº 731032. The Terminology Harmonizer has been developed
-within the H2020 project GRACIOUS funded under grant agreement nº 760840.
+NanoCommons is an EU-H2020 research infrastructure funded under grant agreement nº [731032](https://cordis.europa.eu/project/id/731032). The Terminology Harmonizer has been developed
+within the H2020 project GRACIOUS funded under grant agreement nº [760840](https://cordis.europa.eu/project/id/760840).
 
 ## References
 * Power, D., Rouse, I., Poggio, S., Brandt, E., Lopez, H., Lyubartsev, A., Lobaskin, V.  A multiscale model of protein adsorption on a nanoparticle surface. Modelling Simul. Mater. Sci. Eng. 27, 084003 (2019). doi:[10.1088/1361-651X/ab3b6e](https://doi.org/10.1088/1361-651X/ab3b6e)
