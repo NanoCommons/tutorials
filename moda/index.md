@@ -117,7 +117,7 @@ Add a source – click on the grey + sign beside sources – a pop up box appear
 
 IMAGE 4
 
-### Realted terms
+### Related terms
 
 You can add a related term that is one level lower by clicking the down arrow in your added term.  For example, if you wanted to define
 the range of applicable solvents – water, physiological buffer, cell culture medium etc.).  Do this using the blue cross below your term:
