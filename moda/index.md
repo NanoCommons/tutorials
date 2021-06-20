@@ -22,9 +22,9 @@ trainingMaterial:
   version: 1.1
 ---
 
-# Ontologically annotating MODA temlates with the NSC Terminology Harmonizer
-<img style="float: right"
+<img style="float: right; width: 200px"
   src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png/640px-NanoCommons-Logo-Large_-_White_Circle_01.png" />
+# Ontologically annotating MODA temlates with the NSC Terminology Harmonizer
 
 * Authors: Iseult Lynch (orcid:[0000-0003-4250-4584](https://orcid.org/0000-0003-4250-4584)), Egon Willighagen (orcid:[0000-0001-7542-0286](https://orcid.org/0000-0001-7542-0286))
 * License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
