@@ -101,28 +101,28 @@ First step is to log in via this link: [https://terminology-harmonizer.greendeci
 
 ### Go to the Nanoinformatics and simulations workspace and check if the term is already listed:
 
-IMAGE 1
+![](moda-image1.png)
 
 ### To add a new term (called Enumerations in the Harmoniser) – click the large blue cross:
 
-IMAGE 2
+![](moda-image2.png)
 
 ### Add term and a starting definition
 
-IMAGE 3
+![](moda-image3.png)
 
 ### Adding sources
 
 Add a source – click on the grey + sign beside sources – a pop up box appears where you can add source (ISO document, link, paper ontology).
 
-IMAGE 4
+![](moda-image4.png)
 
 ### Related terms
 
 You can add a related term that is one level lower by clicking the down arrow in your added term.  For example, if you wanted to define
 the range of applicable solvents – water, physiological buffer, cell culture medium etc.).  Do this using the blue cross below your term:
 
-IMAGE 5
+![](moda-image5.png)
 
 ## Acknowledgements
 
