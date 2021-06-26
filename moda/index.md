@@ -10,25 +10,27 @@ trainingMaterial:
    - "@type": Person
       name: Iseult Lynch
       identifier: 0000-0003-4250-4584
-    - "@type": Person
+   - "@type": Person
       name: Egon Willighagen
       identifier: 0000-0001-7542-0286
+   - "@type": Person
+      name: Thomas Exner
   difficultyLevel: [Advanced]
   keywords: ontologies, enanomapper, Terminology Harmonizer, MODA template
   license: CC-BY 4.0
   url:
     - "@type": URL
       url: https://nanocommons.github.io/tutorials/moda/
-  version: 1.1
+  version: 1.2
 ---
 
 <img style="float: right; width: 200px"
   src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png/640px-NanoCommons-Logo-Large_-_White_Circle_01.png" />
 # Ontologically annotating MODA temlates with the NSC Terminology Harmonizer
 
-* Authors: Iseult Lynch (orcid:[0000-0003-4250-4584](https://orcid.org/0000-0003-4250-4584)), Egon Willighagen (orcid:[0000-0001-7542-0286](https://orcid.org/0000-0001-7542-0286))
+* Authors: Iseult Lynch (University of Birmingham, orcid:[0000-0003-4250-4584](https://orcid.org/0000-0003-4250-4584)), Egon Willighagen (Maastricht University, orcid:[0000-0001-7542-0286](https://orcid.org/0000-0001-7542-0286)), Thomas Exner (Seven Part Nine)
 * License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-* Version: 1.1
+* Version: 1.2
 * Source: [github.com/NanoCommons/tutorials/blob/master/moda/index.md](https://github.com/NanoCommons/tutorials/blob/master/moda/index.md)
 
 To support the research into the computational modelling of materials the European Materials Modelling Council (EMMC) has developed a template to document
@@ -36,11 +38,9 @@ simulations, the MOdelling DAta (MODA) templates (see [emmc.eu/resources/moda/](
 a text editor like Microsoft Word and a repository of resulting PDFs has been set up on the aforementioned website, but there is also a MODA Portal
 available at [moda-app.eu/](https://moda-app.eu/.).
 
-MODA templates can be made more FAIR (Findable, Accessible, Interoperable and Re-usable). For example, they could be given a DOI by archiving them
-simultaneously on Figshare or Zenodo and can be given copyright and license information. MODA templates can be further FAIR-ified by annotating their
-content with ontology terms. One simple but effective approach is to include so-called compact identifiers [Wimalaratne et al., 2018].  
+While MODA provides a clear structure of what needs to be reported for a specific computational method, they are based on free text and are, therefore, not directly machine readable, hindering the development of advanced search tools and the direct enrichment of data with information provided in the MODA. Additionally, free-text-based templates cannot give more guidance to the user on what metadata needs to be reported to make the method description complete. Therefore, we started an activity looking at existing MODA method descriptions to find commonalities in the reported information and to determine if this can be further structured and annotated for better user guidance and computer actionability.  The Starting point is finding important information and seeing if defined terminology already exists for its semantic annotation. One simple but effective approach to do this is to include so-called compact identifiers [Wimalaratne et al., 2018].  
 
-We provide here a simple approach to do such annotation, and where suitable ontology terms don’t yet exist a means to add these terms into a workflow for
+We provide here a simple approach to do such annotation, and, where suitable ontology terms do not yet exist, a means to add these terms into a workflow for
 agreeing definitions and getting the terms added to the ENM ontology ([github.com/enanomapper/ontologies](https://github.com/enanomapper/ontologies)).  
 
 ## Procedure
