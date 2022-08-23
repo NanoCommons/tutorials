@@ -1,32 +1,41 @@
----
-layout: default
-
-trainingMaterial:
-  "@context": http://schema.org/
-  "@type": LearningResource
-  "http://purl.org/dc/terms/conformsTo":
-    - "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE"
-      "@type": "CreativeWork"
-  description: "This tutorial describes how nanomaterial data can be added to an eNanoMapper server using a RDF format."
-  name: "Adding nanomaterial data"
-  author:
-    - "@type": Person
-      name: Egon Willighagen
-      identifier: 0000-0001-7542-0286
-  "audience":
-    - "@type": "EducationalAudience",
-      "educationalRole": "Graduates"
-  keywords: "ontologies, enanomapper, RDF"
-  license: "https://creativecommons.org/licenses/by/4.0/"
-  url: "https://enanomapper.github.io/tutorials/enteringData/"
-  "inLanguage":
-    - "@type": "Language"
-      "name": "English"
-      "alternateName": "en"
-  version: 0.9.3
----
-
 # Adding nanomaterial data
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "LearningResource",
+    "http://purl.org/dc/terms/conformsTo": { "@type": "CreativeWork", "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE" },
+    "name": "Adding nanomaterial data",
+    "version": "0.9.3",
+    "description": "This tutorial describes how nanomaterial data can be added to an eNanoMapper server using a RDF format.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "keywords": "ontologies, enanomapper, RDF",
+    "url": "https://enanomapper.github.io/tutorials/enteringData/",
+    "provider": {
+      "@type": "Organization",
+      "name": "NanoCommons",
+      "url": "https://www.nanocommons.eu/"
+    },
+    "audience": {
+      "@type": "EducationalAudience",
+      "educationalRole": "Graduates"
+    },
+    "inLanguage": {
+      "@type": "Language",
+      "name": "English",
+      "alternateName": "en"
+    },
+    "author": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Egon Willighagen",
+        "identifier": "https://orcid.org/0000-0001-7542-0286",
+        "orcid": "https://orcid.org/0000-0001-7542-0286"
+      }
+    ]
+  }
+</script>
+
 
 * Author: Egon Willighagen (orcid:[0000-0001-7542-0286](https://orcid.org/0000-0001-7542-0286))
 * License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
