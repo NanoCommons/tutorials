@@ -3,19 +3,26 @@ layout: default
 
 trainingMaterial:
   "@context": http://schema.org/
-  "@type": CreativeWork
-  about: "This tutorial describes how nanomaterial data can be added to an eNanoMapper server using a RDF format."
-  name: Adding nanomaterial data
+  "@type": LearningResource
+  "http://purl.org/dc/terms/conformsTo":
+    - "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE"
+      "@type": "CreativeWork"
+  description: "This tutorial describes how nanomaterial data can be added to an eNanoMapper server using a RDF format."
+  name: "Adding nanomaterial data"
   author:
     - "@type": Person
       name: Egon Willighagen
       identifier: 0000-0001-7542-0286
-  difficultyLevel: [Advanced]
-  keywords: ontologies, enanomapper, RDF
-  license: CC-BY 4.0
-  url:
-    - "@type": URL
-      url: https://enanomapper.github.io/tutorials/enteringData/
+  "audience":
+    - "@type": "EducationalAudience",
+      "educationalRole": "Graduates"
+  keywords: "ontologies, enanomapper, RDF"
+  license: "https://creativecommons.org/licenses/by/4.0/"
+  url: "https://enanomapper.github.io/tutorials/enteringData/"
+  "inLanguage":
+    - "@type": "Language"
+      "name": "English"
+      "alternateName": "en"
   version: 0.9.3
 ---
 
@@ -23,7 +30,7 @@ trainingMaterial:
 
 * Author: Egon Willighagen (orcid:[0000-0001-7542-0286](https://orcid.org/0000-0001-7542-0286))
 * License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-* Version: 0.9.2
+* Version: 0.9.3
 * Source: [https://github.com/NanoCommons/tutorials/blob/master/enteringData/index.md](https://github.com/NanoCommons/tutorials/blob/master/enteringData/index.md)
 
 Adding nanomaterial data to an eNanoMapper instance can be done in many different ways, as one would
