@@ -9,7 +9,7 @@
     "description": "This tutorial describes how nanomaterial data can be added to an eNanoMapper server using a RDF format.",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "keywords": "ontologies, enanomapper, RDF",
-    "url": "https://enanomapper.github.io/tutorials/enteringData/",
+    "url": "https://nanocommons.github.io/tutorials/enteringData/",
     "provider": {
       "@type": "Organization",
       "name": "NanoCommons",
