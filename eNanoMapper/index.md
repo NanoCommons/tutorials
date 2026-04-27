@@ -9,7 +9,8 @@ trainingMaterial:
   author:
     - "@type": Person
       name: Laurent Winckers
-      identifier: 0000-0002-9454-4783
+      identifier: https://orcid.org/0000-0002-9454-4783
+      "@id": https://orcid.org/0000-0002-9454-4783
   difficultyLevel: [Novice]
   keywords: ontologies, enanomapper, OWL
   license: CC-BY 4.0

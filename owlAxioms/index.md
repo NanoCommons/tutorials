@@ -9,7 +9,8 @@ trainingMaterial:
   author:
     - "@type": Person
       name: Egon Willighagen
-      identifier: 0000-0001-7542-0286
+      identifier: https://orcid.org/0000-0001-7542-0286
+      "@id": https://orcid.org/0000-0001-7542-0286
   difficultyLevel: [Advanced]
   keywords: ontologies, enanomapper, OWL
   license: CC-BY 4.0

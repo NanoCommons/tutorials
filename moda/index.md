@@ -9,10 +9,12 @@ trainingMaterial:
   author:
    - "@type": Person
       name: Iseult Lynch
-      identifier: 0000-0003-4250-4584
+      identifier: https://orcid.org/0000-0003-4250-4584
+      "@id": https://orcid.org/0000-0003-4250-4584
    - "@type": Person
       name: Egon Willighagen
-      identifier: 0000-0001-7542-0286
+      identifier: https://orcid.org/0000-0001-7542-0286
+      "@id": https://orcid.org/0000-0001-7542-0286
    - "@type": Person
       name: Thomas Exner
   difficultyLevel: [Advanced]
