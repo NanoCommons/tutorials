@@ -3,7 +3,7 @@ layout: default
 
 trainingMaterial:
   "@context": http://schema.org/
-  "@type": CreativeWork
+  "@type": LearningResource
   about: "This tutorial discusses the addition of a new term, not found in any other ontology, to the eNanoMapper ontology."
   name: Adding new term to the eNanoMapper ontology
   author:
